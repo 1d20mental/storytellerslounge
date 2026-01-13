@@ -1,0 +1,60 @@
+recipe_id,item_id,base_item_id,name,base_name,category,meta_type,value_gp,rarity_heliana,attunement_heliana,comp_creature_type,metatag,metatag_is_bold,component,notes
+recipe_plus1_ammunition,plus1_ammunition,plus1_ammunition,+1 Ammunition,+1 Ammunition,Weapon,ammunition,25 each,U,"—, C",Beast,,False,Pouch of teeth,A single essence and one check enchants up to 1d4+2 pieces of ammunition.
+recipe_plus2_ammunition,plus2_ammunition,plus2_ammunition,+2 Ammunition,+2 Ammunition,Weapon,ammunition,100 each,R,"—, C",Monstrosity,,False,Pouch of teeth,
+recipe_plus3_ammunition,plus3_ammunition,plus3_ammunition,+3 Ammunition,+3 Ammunition,Weapon,ammunition,480 each,V,"—, C",Dragon,,False,Pouch of teeth,
+recipe_arrow_of_slaying,arrow_of_slaying,arrow_of_slaying,Arrow of Slaying,Arrow of Slaying,Weapon,ammunition (generic),550 each,V,"—, C",Multiple,,False,Phial of acid/blood/sap or primordial dust,Component and creature type depend on target creature type of arrows.
+recipe_plus1_armor,plus1_armor,plus1_armor,+1 Armor,+1 Armor,Armor,armour (generic),"1,500 + base armor",R,—,Beast,Dinosaur,False,Bone,
+recipe_plus2_armor,plus2_armor,plus2_armor,+2 Armor,+2 Armor,Armor,armour (generic),"6,500 + base armor",V,—,Monstrosity,Gorgon,False,Bone,
+recipe_plus3_armor,plus3_armor,plus3_armor,+3 Armor,+3 Armor,Armor,armour (generic),"28,800 + base armor",L,—,Dragon,Magnetite,False,Bone,
+recipe_adamantine_armor,adamantine_armor,adamantine_armor,Adamantine Armor,Adamantine Armor,Armor,armour (generic),500 + base armor,U,—,Material,,False,Adamantine,
+recipe_mithral_armor,mithral_armor,mithral_armor,Mithral Armor,Mithral Armor,Armor,armour (generic),400 + base armor,U,—,Material,,False,Mithral,
+recipe_armor_of_resistance_acid,armor_of_resistance_acid,armor_of_resistance,Armor of Resistance (Acid),Armor of Resistance,Armor,armour (generic),"1,200 + base armor",U R,Req,Ooze,Black pudding,False,Membrane,
+recipe_armor_of_resistance_cold,armor_of_resistance_cold,armor_of_resistance,Armor of Resistance (Cold),Armor of Resistance,Armor,armour (generic),"1,200 + base armor",U R,Req,Fiend,Ice devil,False,Skin,
+recipe_armor_of_resistance_fire,armor_of_resistance_fire,armor_of_resistance,Armor of Resistance (Fire),Armor of Resistance,Armor,armour (generic),"1,500 + base armor",U R,Req,Elemental,Salamander,False,Bone,
+recipe_armor_of_resistance_force,armor_of_resistance_force,armor_of_resistance,Armor of Resistance (Force),Armor of Resistance,Armor,armour (generic),"1,200 + base armor",U R,Req,Construct,Golem,False,Bone,
+recipe_armor_of_resistance_lightning,armor_of_resistance_lightning,armor_of_resistance,Armor of Resistance (Lightning),Armor of Resistance,Armor,armour (generic),"1,200 + base armor",U R,Req,Elemental,Djinni,False,Bone,
+recipe_armor_of_resistance_necrotic,armor_of_resistance_necrotic,armor_of_resistance,Armor of Resistance (Necrotic),Armor of Resistance,Armor,armour (generic),"1,200 + base armor",U R,Req,Undead,Mummy,False,Undying flesh,
+recipe_armor_of_resistance_poison,armor_of_resistance_poison,armor_of_resistance,Armor of Resistance (Poison),Armor of Resistance,Armor,armour (generic),"1,500 + base armor",U R,Req,Monstrosity,Naga,False,Liver,
+recipe_armor_of_resistance_psychic,armor_of_resistance_psychic,armor_of_resistance,Armor of Resistance (Psychic),Armor of Resistance,Armor,armour (generic),"1,100 + base armor",U R,Req,Aberration,Aboleth,False,Brain,
+recipe_armor_of_resistance_radiant,armor_of_resistance_radiant,armor_of_resistance,Armor of Resistance (Radiant),Armor of Resistance,Armor,armour (generic),"1,100 + base armor",U R,Req,Celestial,Planetar,False,Bone,
+recipe_armor_of_resistance_thunder,armor_of_resistance_thunder,armor_of_resistance,Armor of Resistance (Thunder),Armor of Resistance,Armor,armour (generic),"1,100 + base armor",U R,Req,Giant,Storm,False,Bone,
+recipe_armor_of_invulnerability,armor_of_invulnerability,armor_of_invulnerability,Armor of Invulnerability,Armor of Invulnerability,Armor,armour (heavy),"18,000",L,Req,Construct,Golem,False,Plating,
+recipe_armor_of_vulnerability,armor_of_vulnerability,armor_of_vulnerability,Armor of Vulnerability,Armor of Vulnerability,Armor,armour (plate),500 + base armor,U R,Req,Fiend,,False,Phial of blood,
+recipe_animated_shield,animated_shield,animated_shield,Animated Shield,Animated Shield,Armor,armour (shield),"5,000",R V,Req,Construct,Animated,False,Instructions,
+recipe_arrow_catching_shield,arrow_catching_shield,arrow_catching_shield,Arrow-Catching Shield,Arrow-Catching Shield,Armor,armour (shield),"5,000",R,Req,Celestial,,False,Skin,
+recipe_plus1_shield,plus1_shield,plus1_shield,+1 Shield,+1 Shield,Armor,armour (shield),"1,500",R U,—,Beast,Beetle,False,Pouch of scales,
+recipe_plus2_shield,plus2_shield,plus2_shield,+2 Shield,+2 Shield,Armor,armour (shield),"6,500",V R,—,Monstrosity,Bulette,False,Pouch of scales,
+recipe_plus3_shield,plus3_shield,plus3_shield,+3 Shield,+3 Shield,Armor,armour (shield),"28,800",L V,—,Dragon,,False,Pouch of scales,
+recipe_potion_of_climbing,potion_of_climbing,potion_of_climbing,Potion of Climbing,Potion of Climbing,Potion,potion,50,C,"—, C",Beast,Spider,False,Pouch of claws,
+recipe_potion_of_healing_healing,potion_of_healing_healing,potion_of_healing,Potion of Healing (Healing),Potion of Healing,Potion,potion,50,C,"—, C",Beast,,False,Fat,
+recipe_potion_of_healing_greater,potion_of_healing_greater,potion_of_healing,Potion of Healing (Greater),Potion of Healing,Potion,potion,250,U,"—, C",Beast,,False,Liver,
+recipe_potion_of_healing_superior,potion_of_healing_superior,potion_of_healing,Potion of Healing (Superior),Potion of Healing,Potion,potion,"1,000",R,"—, C",Monstrosity,,False,Liver,
+recipe_potion_of_healing_supreme,potion_of_healing_supreme,potion_of_healing,Potion of Healing (Supreme),Potion of Healing,Potion,potion,"5,000",V,"—, C",Monstrosity,,False,Fat and Liver,
+recipe_potion_of_resistance_acid,potion_of_resistance_acid,potion_of_resistance,Potion of Resistance (Acid),Potion of Resistance,Potion,potion,240,U,"—, C",Elemental,,False,Volatile mote of water,
+recipe_potion_of_resistance_cold,potion_of_resistance_cold,potion_of_resistance,Potion of Resistance (Cold),Potion of Resistance,Potion,potion,240,U,"—, C",Fiend,Ice devil,False,Fat,
+recipe_potion_of_resistance_fire,potion_of_resistance_fire,potion_of_resistance,Potion of Resistance (Fire),Potion of Resistance,Potion,potion,300,U,"—, C",Fiend,Hell hound,False,Fat,
+recipe_potion_of_resistance_force,potion_of_resistance_force,potion_of_resistance,Potion of Resistance (Force),Potion of Resistance,Potion,potion,240,U,"—, C",Aberration,,False,Fat,
+recipe_potion_of_resistance_lightning,potion_of_resistance_lightning,potion_of_resistance,Potion of Resistance (Lightning),Potion of Resistance,Potion,potion,240,U,"—, C",Construct,Flesh golem,False,Phial of blood,
+recipe_potion_of_resistance_necrotic,potion_of_resistance_necrotic,potion_of_resistance,Potion of Resistance (Necrotic),Potion of Resistance,Potion,potion,240,U,"—, C",Undead,,False,Phial of congealed blood,
+recipe_potion_of_resistance_poison,potion_of_resistance_poison,potion_of_resistance,Potion of Resistance (Poison),Potion of Resistance,Potion,potion,300,U,"—, C",Fiend,Bearded devil,False,Fat,
+recipe_potion_of_resistance_psychic,potion_of_resistance_psychic,potion_of_resistance,Potion of Resistance (Psychic),Potion of Resistance,Potion,potion,220,U,"—, C",Aberration,Dreamholder,False,Fat,
+recipe_potion_of_resistance_radiant,potion_of_resistance_radiant,potion_of_resistance,Potion of Resistance (Radiant),Potion of Resistance,Potion,potion,220,U,"—, C",Celestial,Couatl,False,Fat,
+recipe_potion_of_resistance_thunder,potion_of_resistance_thunder,potion_of_resistance,Potion of Resistance (Thunder),Potion of Resistance,Potion,potion,220,U,"—, C",Giant,Storm,False,Fat,
+recipe_ring_of_invisibility,ring_of_invisibility,ring_of_invisibility,Ring of Invisibility,Ring of Invisibility,Ring,ring,"32,000",L,Req,Elemental,Invisible stalker,False,Primordial dust,
+recipe_immovable_rod,immovable_rod,immovable_rod,Immovable Rod,Immovable Rod,Rod,rod,"2,000",U,—,Beast,,False,Bone,
+recipe_cantrip_spell_scroll,cantrip_spell_scroll,cantrip_spell_scroll,Cantrip Spell Scroll,Cantrip Spell Scroll,Scroll,scroll,20,C,"—, C",(by school),,False,Any,Creature type depends on spell school (see Heliana footnote).
+recipe_1st_level_spell_scroll,1st_level_spell_scroll,1st_level_spell_scroll,1st-level Spell Scroll,1st-level Spell Scroll,Scroll,scroll,60,C,"—, C",(by school),,False,Any,Creature type depends on spell school (see Heliana footnote).
+recipe_2nd_level_spell_scroll,2nd_level_spell_scroll,2nd_level_spell_scroll,2nd-level Spell Scroll,2nd-level Spell Scroll,Scroll,scroll,180,U,"—, C",(by school),,False,Any,Creature type depends on spell school (see Heliana footnote).
+recipe_3rd_level_spell_scroll,3rd_level_spell_scroll,3rd_level_spell_scroll,3rd-level Spell Scroll,3rd-level Spell Scroll,Scroll,scroll,360,U,"—, C",(by school),,False,Any,Creature type depends on spell school (see Heliana footnote).
+recipe_4th_level_spell_scroll,4th_level_spell_scroll,4th_level_spell_scroll,4th-level Spell Scroll,4th-level Spell Scroll,Scroll,scroll,900,R,"—, C",(by school),,False,Any,Creature type depends on spell school (see Heliana footnote).
+recipe_5th_level_spell_scroll,5th_level_spell_scroll,5th_level_spell_scroll,5th-level Spell Scroll,5th-level Spell Scroll,Scroll,scroll,"2,000",R,"—, C",(by school),,False,Any,Creature type depends on spell school (see Heliana footnote).
+recipe_6th_level_spell_scroll,6th_level_spell_scroll,6th_level_spell_scroll,6th-level Spell Scroll,6th-level Spell Scroll,Scroll,scroll,"5,000",V,"—, C",(by school),,False,Any,Creature type depends on spell school (see Heliana footnote).
+recipe_7th_level_spell_scroll,7th_level_spell_scroll,7th_level_spell_scroll,7th-level Spell Scroll,7th-level Spell Scroll,Scroll,scroll,"12,000",V,"—, C",(by school),,False,Any,Creature type depends on spell school (see Heliana footnote).
+recipe_8th_level_spell_scroll,8th_level_spell_scroll,8th_level_spell_scroll,8th-level Spell Scroll,8th-level Spell Scroll,Scroll,scroll,"25,000",V,"—, C",(by school),,False,Any,Creature type depends on spell school (see Heliana footnote).
+recipe_9th_level_spell_scroll,9th_level_spell_scroll,9th_level_spell_scroll,9th-level Spell Scroll,9th-level Spell Scroll,Scroll,scroll,"50,000",L,"—, C",(by school),,False,Any,Creature type depends on spell school (see Heliana footnote).
+recipe_staff_of_striking,staff_of_striking,staff_of_striking,Staff of Striking,Staff of Striking,Staff,"staff, weapon","12,000",V,Req,Fey,Sprite,False,Psyche,
+recipe_wand_of_fireballs,wand_of_fireballs,wand_of_fireballs,Wand of Fireballs,Wand of Fireballs,Wand,wand,"25,000",V R,Reqs,Elemental,Fire elemental,False,Volatile mote of fire,
+recipe_amulet_of_health,amulet_of_health,amulet_of_health,Amulet of Health,Amulet of Health,Wondrous Item,wondrous item,"7,000",R,Req,Beast,Mammoth,False,Heart,
+recipe_amulet_of_proof_against_detection_and_location,amulet_of_proof_against_detection_and_location,amulet_of_proof_against_detection_and_location,Amulet of Proof against Detection and Location,Amulet of Proof against Detection and Location,Wondrous Item,wondrous item,"1,000",U,Req,Fey,,False,Antenna,
+recipe_amulet_of_the_planes,amulet_of_the_planes,amulet_of_the_planes,Amulet of the Planes,Amulet of the Planes,Wondrous Item,wondrous item,"20,000",V,Req,Fiend,,False,Soul,
+recipe_bag_of_holding,bag_of_holding,bag_of_holding,Bag of Holding,Bag of Holding,Wondrous Item,wondrous item,"2,500",U,—,Aberration,,False,Hide,
