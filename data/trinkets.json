@@ -1,0 +1,802 @@
+[
+  {
+    "id": "trinket_001",
+    "name": "Ornate Coin",
+    "rarity": "common",
+    "weight": 39,
+    "flavor": "A ornate coin hauled from the tides.",
+    "baseValue": 11
+  },
+  {
+    "id": "trinket_002",
+    "name": "Engraved Compass",
+    "rarity": "uncommon",
+    "weight": 68,
+    "flavor": "A engraved compass hauled from the tides.",
+    "baseValue": 12
+  },
+  {
+    "id": "trinket_003",
+    "name": "Ornate Bottle Cap",
+    "rarity": "rare",
+    "weight": 93,
+    "flavor": "A ornate bottle cap hauled from the tides.",
+    "baseValue": 51
+  },
+  {
+    "id": "trinket_004",
+    "name": "Bent Shell Charm",
+    "rarity": "uncommon",
+    "weight": 83,
+    "flavor": "A bent shell charm hauled from the tides.",
+    "baseValue": 12
+  },
+  {
+    "id": "trinket_005",
+    "name": "Weathered Bead",
+    "rarity": "rare",
+    "weight": 66,
+    "flavor": "A weathered bead hauled from the tides.",
+    "baseValue": 45
+  },
+  {
+    "id": "trinket_006",
+    "name": "Tiny Ring",
+    "rarity": "epic",
+    "weight": 97,
+    "flavor": "A tiny ring hauled from the tides.",
+    "baseValue": 72
+  },
+  {
+    "id": "trinket_007",
+    "name": "Ornate Bead",
+    "rarity": "rare",
+    "weight": 3,
+    "flavor": "A ornate bead hauled from the tides.",
+    "baseValue": 60
+  },
+  {
+    "id": "trinket_008",
+    "name": "Engraved Compass",
+    "rarity": "common",
+    "weight": 18,
+    "flavor": "A engraved compass hauled from the tides.",
+    "baseValue": 13
+  },
+  {
+    "id": "trinket_009",
+    "name": "Polished Bottle Cap",
+    "rarity": "rare",
+    "weight": 72,
+    "flavor": "A polished bottle cap hauled from the tides.",
+    "baseValue": 9
+  },
+  {
+    "id": "trinket_010",
+    "name": "Weathered Lure",
+    "rarity": "uncommon",
+    "weight": 32,
+    "flavor": "A weathered lure hauled from the tides.",
+    "baseValue": 34
+  },
+  {
+    "id": "trinket_011",
+    "name": "Rusted Coin",
+    "rarity": "common",
+    "weight": 9,
+    "flavor": "A rusted coin hauled from the tides.",
+    "baseValue": 18
+  },
+  {
+    "id": "trinket_012",
+    "name": "Tiny Compass",
+    "rarity": "uncommon",
+    "weight": 9,
+    "flavor": "A tiny compass hauled from the tides.",
+    "baseValue": 34
+  },
+  {
+    "id": "trinket_013",
+    "name": "Rusted Map Scrap",
+    "rarity": "common",
+    "weight": 34,
+    "flavor": "A rusted map scrap hauled from the tides.",
+    "baseValue": 9
+  },
+  {
+    "id": "trinket_014",
+    "name": "Engraved Amulet",
+    "rarity": "uncommon",
+    "weight": 59,
+    "flavor": "A engraved amulet hauled from the tides.",
+    "baseValue": 34
+  },
+  {
+    "id": "trinket_015",
+    "name": "Salt-Crusted Compass",
+    "rarity": "common",
+    "weight": 88,
+    "flavor": "A salt-crusted compass hauled from the tides.",
+    "baseValue": 11
+  },
+  {
+    "id": "trinket_016",
+    "name": "Weathered Key",
+    "rarity": "uncommon",
+    "weight": 26,
+    "flavor": "A weathered key hauled from the tides.",
+    "baseValue": 8
+  },
+  {
+    "id": "trinket_017",
+    "name": "Ornate Ring",
+    "rarity": "common",
+    "weight": 84,
+    "flavor": "A ornate ring hauled from the tides.",
+    "baseValue": 11
+  },
+  {
+    "id": "trinket_018",
+    "name": "Ornate Key",
+    "rarity": "common",
+    "weight": 62,
+    "flavor": "A ornate key hauled from the tides.",
+    "baseValue": 3
+  },
+  {
+    "id": "trinket_019",
+    "name": "Mossy Shell Charm",
+    "rarity": "epic",
+    "weight": 13,
+    "flavor": "A mossy shell charm hauled from the tides.",
+    "baseValue": 32
+  },
+  {
+    "id": "trinket_020",
+    "name": "Mossy Shell Charm",
+    "rarity": "uncommon",
+    "weight": 37,
+    "flavor": "A mossy shell charm hauled from the tides.",
+    "baseValue": 32
+  },
+  {
+    "id": "trinket_021",
+    "name": "Mossy Lantern Charm",
+    "rarity": "rare",
+    "weight": 71,
+    "flavor": "A mossy lantern charm hauled from the tides.",
+    "baseValue": 24
+  },
+  {
+    "id": "trinket_022",
+    "name": "Rusted Compass",
+    "rarity": "epic",
+    "weight": 3,
+    "flavor": "A rusted compass hauled from the tides.",
+    "baseValue": 44
+  },
+  {
+    "id": "trinket_023",
+    "name": "Mossy Compass",
+    "rarity": "rare",
+    "weight": 58,
+    "flavor": "A mossy compass hauled from the tides.",
+    "baseValue": 30
+  },
+  {
+    "id": "trinket_024",
+    "name": "Salt-Crusted Amulet",
+    "rarity": "epic",
+    "weight": 27,
+    "flavor": "A salt-crusted amulet hauled from the tides.",
+    "baseValue": 16
+  },
+  {
+    "id": "trinket_025",
+    "name": "Ornate Compass",
+    "rarity": "common",
+    "weight": 68,
+    "flavor": "A ornate compass hauled from the tides.",
+    "baseValue": 10
+  },
+  {
+    "id": "trinket_026",
+    "name": "Gilded Ring",
+    "rarity": "uncommon",
+    "weight": 81,
+    "flavor": "A gilded ring hauled from the tides.",
+    "baseValue": 36
+  },
+  {
+    "id": "trinket_027",
+    "name": "Rusted Totem",
+    "rarity": "common",
+    "weight": 47,
+    "flavor": "A rusted totem hauled from the tides.",
+    "baseValue": 9
+  },
+  {
+    "id": "trinket_028",
+    "name": "Mossy Totem",
+    "rarity": "rare",
+    "weight": 51,
+    "flavor": "A mossy totem hauled from the tides.",
+    "baseValue": 6
+  },
+  {
+    "id": "trinket_029",
+    "name": "Bent Coin",
+    "rarity": "epic",
+    "weight": 88,
+    "flavor": "A bent coin hauled from the tides.",
+    "baseValue": 64
+  },
+  {
+    "id": "trinket_030",
+    "name": "Salt-Crusted Shell Charm",
+    "rarity": "uncommon",
+    "weight": 54,
+    "flavor": "A salt-crusted shell charm hauled from the tides.",
+    "baseValue": 26
+  },
+  {
+    "id": "trinket_031",
+    "name": "Salt-Crusted Bracelet",
+    "rarity": "common",
+    "weight": 43,
+    "flavor": "A salt-crusted bracelet hauled from the tides.",
+    "baseValue": 2
+  },
+  {
+    "id": "trinket_032",
+    "name": "Gilded Map Scrap",
+    "rarity": "common",
+    "weight": 51,
+    "flavor": "A gilded map scrap hauled from the tides.",
+    "baseValue": 5
+  },
+  {
+    "id": "trinket_033",
+    "name": "Engraved Sextant Piece",
+    "rarity": "common",
+    "weight": 95,
+    "flavor": "A engraved sextant piece hauled from the tides.",
+    "baseValue": 11
+  },
+  {
+    "id": "trinket_034",
+    "name": "Rusted Bracelet",
+    "rarity": "common",
+    "weight": 50,
+    "flavor": "A rusted bracelet hauled from the tides.",
+    "baseValue": 20
+  },
+  {
+    "id": "trinket_035",
+    "name": "Polished Bracelet",
+    "rarity": "epic",
+    "weight": 97,
+    "flavor": "A polished bracelet hauled from the tides.",
+    "baseValue": 40
+  },
+  {
+    "id": "trinket_036",
+    "name": "Weathered Shell Charm",
+    "rarity": "common",
+    "weight": 85,
+    "flavor": "A weathered shell charm hauled from the tides.",
+    "baseValue": 11
+  },
+  {
+    "id": "trinket_037",
+    "name": "Bent Amulet",
+    "rarity": "epic",
+    "weight": 56,
+    "flavor": "A bent amulet hauled from the tides.",
+    "baseValue": 72
+  },
+  {
+    "id": "trinket_038",
+    "name": "Gilded Amulet",
+    "rarity": "rare",
+    "weight": 55,
+    "flavor": "A gilded amulet hauled from the tides.",
+    "baseValue": 6
+  },
+  {
+    "id": "trinket_039",
+    "name": "Salt-Crusted Totem",
+    "rarity": "rare",
+    "weight": 71,
+    "flavor": "A salt-crusted totem hauled from the tides.",
+    "baseValue": 57
+  },
+  {
+    "id": "trinket_040",
+    "name": "Engraved Sextant Piece",
+    "rarity": "common",
+    "weight": 94,
+    "flavor": "A engraved sextant piece hauled from the tides.",
+    "baseValue": 15
+  },
+  {
+    "id": "trinket_041",
+    "name": "Mossy Key",
+    "rarity": "rare",
+    "weight": 83,
+    "flavor": "A mossy key hauled from the tides.",
+    "baseValue": 33
+  },
+  {
+    "id": "trinket_042",
+    "name": "Mossy Coin",
+    "rarity": "epic",
+    "weight": 71,
+    "flavor": "A mossy coin hauled from the tides.",
+    "baseValue": 24
+  },
+  {
+    "id": "trinket_043",
+    "name": "Bent Lantern Charm",
+    "rarity": "common",
+    "weight": 37,
+    "flavor": "A bent lantern charm hauled from the tides.",
+    "baseValue": 11
+  },
+  {
+    "id": "trinket_044",
+    "name": "Rusted Sextant Piece",
+    "rarity": "uncommon",
+    "weight": 84,
+    "flavor": "A rusted sextant piece hauled from the tides.",
+    "baseValue": 20
+  },
+  {
+    "id": "trinket_045",
+    "name": "Salt-Crusted Lure",
+    "rarity": "common",
+    "weight": 62,
+    "flavor": "A salt-crusted lure hauled from the tides.",
+    "baseValue": 19
+  },
+  {
+    "id": "trinket_046",
+    "name": "Salt-Crusted Compass",
+    "rarity": "common",
+    "weight": 21,
+    "flavor": "A salt-crusted compass hauled from the tides.",
+    "baseValue": 4
+  },
+  {
+    "id": "trinket_047",
+    "name": "Engraved Anchor Charm",
+    "rarity": "epic",
+    "weight": 64,
+    "flavor": "A engraved anchor charm hauled from the tides.",
+    "baseValue": 76
+  },
+  {
+    "id": "trinket_048",
+    "name": "Engraved Lantern Charm",
+    "rarity": "epic",
+    "weight": 98,
+    "flavor": "A engraved lantern charm hauled from the tides.",
+    "baseValue": 64
+  },
+  {
+    "id": "trinket_049",
+    "name": "Salt-Crusted Ring",
+    "rarity": "uncommon",
+    "weight": 32,
+    "flavor": "A salt-crusted ring hauled from the tides.",
+    "baseValue": 8
+  },
+  {
+    "id": "trinket_050",
+    "name": "Bent Bracelet",
+    "rarity": "uncommon",
+    "weight": 41,
+    "flavor": "A bent bracelet hauled from the tides.",
+    "baseValue": 18
+  },
+  {
+    "id": "trinket_051",
+    "name": "Gilded Shell Charm",
+    "rarity": "rare",
+    "weight": 26,
+    "flavor": "A gilded shell charm hauled from the tides.",
+    "baseValue": 6
+  },
+  {
+    "id": "trinket_052",
+    "name": "Salt-Crusted Bottle Cap",
+    "rarity": "common",
+    "weight": 68,
+    "flavor": "A salt-crusted bottle cap hauled from the tides.",
+    "baseValue": 8
+  },
+  {
+    "id": "trinket_053",
+    "name": "Salt-Crusted Shell Charm",
+    "rarity": "common",
+    "weight": 8,
+    "flavor": "A salt-crusted shell charm hauled from the tides.",
+    "baseValue": 17
+  },
+  {
+    "id": "trinket_054",
+    "name": "Rusted Key",
+    "rarity": "epic",
+    "weight": 17,
+    "flavor": "A rusted key hauled from the tides.",
+    "baseValue": 72
+  },
+  {
+    "id": "trinket_055",
+    "name": "Tiny Lure",
+    "rarity": "rare",
+    "weight": 28,
+    "flavor": "A tiny lure hauled from the tides.",
+    "baseValue": 12
+  },
+  {
+    "id": "trinket_056",
+    "name": "Rusted Totem",
+    "rarity": "common",
+    "weight": 52,
+    "flavor": "A rusted totem hauled from the tides.",
+    "baseValue": 16
+  },
+  {
+    "id": "trinket_057",
+    "name": "Salt-Crusted Shell Charm",
+    "rarity": "rare",
+    "weight": 3,
+    "flavor": "A salt-crusted shell charm hauled from the tides.",
+    "baseValue": 18
+  },
+  {
+    "id": "trinket_058",
+    "name": "Weathered Bottle Cap",
+    "rarity": "uncommon",
+    "weight": 61,
+    "flavor": "A weathered bottle cap hauled from the tides.",
+    "baseValue": 40
+  },
+  {
+    "id": "trinket_059",
+    "name": "Mossy Coin",
+    "rarity": "common",
+    "weight": 68,
+    "flavor": "A mossy coin hauled from the tides.",
+    "baseValue": 16
+  },
+  {
+    "id": "trinket_060",
+    "name": "Mossy Amulet",
+    "rarity": "rare",
+    "weight": 29,
+    "flavor": "A mossy amulet hauled from the tides.",
+    "baseValue": 18
+  },
+  {
+    "id": "trinket_061",
+    "name": "Bent Anchor Charm",
+    "rarity": "epic",
+    "weight": 14,
+    "flavor": "A bent anchor charm hauled from the tides.",
+    "baseValue": 64
+  },
+  {
+    "id": "trinket_062",
+    "name": "Polished Anchor Charm",
+    "rarity": "rare",
+    "weight": 1,
+    "flavor": "A polished anchor charm hauled from the tides.",
+    "baseValue": 18
+  },
+  {
+    "id": "trinket_063",
+    "name": "Engraved Key",
+    "rarity": "epic",
+    "weight": 83,
+    "flavor": "A engraved key hauled from the tides.",
+    "baseValue": 44
+  },
+  {
+    "id": "trinket_064",
+    "name": "Bent Lure",
+    "rarity": "common",
+    "weight": 82,
+    "flavor": "A bent lure hauled from the tides.",
+    "baseValue": 15
+  },
+  {
+    "id": "trinket_065",
+    "name": "Polished Compass",
+    "rarity": "common",
+    "weight": 68,
+    "flavor": "A polished compass hauled from the tides.",
+    "baseValue": 20
+  },
+  {
+    "id": "trinket_066",
+    "name": "Engraved Bottle Cap",
+    "rarity": "common",
+    "weight": 77,
+    "flavor": "A engraved bottle cap hauled from the tides.",
+    "baseValue": 2
+  },
+  {
+    "id": "trinket_067",
+    "name": "Weathered Anchor Charm",
+    "rarity": "common",
+    "weight": 59,
+    "flavor": "A weathered anchor charm hauled from the tides.",
+    "baseValue": 10
+  },
+  {
+    "id": "trinket_068",
+    "name": "Gilded Lure",
+    "rarity": "rare",
+    "weight": 32,
+    "flavor": "A gilded lure hauled from the tides.",
+    "baseValue": 51
+  },
+  {
+    "id": "trinket_069",
+    "name": "Tiny Amulet",
+    "rarity": "uncommon",
+    "weight": 4,
+    "flavor": "A tiny amulet hauled from the tides.",
+    "baseValue": 30
+  },
+  {
+    "id": "trinket_070",
+    "name": "Rusted Coin",
+    "rarity": "common",
+    "weight": 64,
+    "flavor": "A rusted coin hauled from the tides.",
+    "baseValue": 15
+  },
+  {
+    "id": "trinket_071",
+    "name": "Polished Shell Charm",
+    "rarity": "common",
+    "weight": 55,
+    "flavor": "A polished shell charm hauled from the tides.",
+    "baseValue": 13
+  },
+  {
+    "id": "trinket_072",
+    "name": "Engraved Lantern Charm",
+    "rarity": "common",
+    "weight": 44,
+    "flavor": "A engraved lantern charm hauled from the tides.",
+    "baseValue": 15
+  },
+  {
+    "id": "trinket_073",
+    "name": "Gilded Lure",
+    "rarity": "common",
+    "weight": 1,
+    "flavor": "A gilded lure hauled from the tides.",
+    "baseValue": 11
+  },
+  {
+    "id": "trinket_074",
+    "name": "Tiny Compass",
+    "rarity": "common",
+    "weight": 26,
+    "flavor": "A tiny compass hauled from the tides.",
+    "baseValue": 11
+  },
+  {
+    "id": "trinket_075",
+    "name": "Engraved Amulet",
+    "rarity": "common",
+    "weight": 34,
+    "flavor": "A engraved amulet hauled from the tides.",
+    "baseValue": 11
+  },
+  {
+    "id": "trinket_076",
+    "name": "Polished Key",
+    "rarity": "common",
+    "weight": 24,
+    "flavor": "A polished key hauled from the tides.",
+    "baseValue": 9
+  },
+  {
+    "id": "trinket_077",
+    "name": "Mossy Bottle Cap",
+    "rarity": "epic",
+    "weight": 8,
+    "flavor": "A mossy bottle cap hauled from the tides.",
+    "baseValue": 24
+  },
+  {
+    "id": "trinket_078",
+    "name": "Salt-Crusted Coin",
+    "rarity": "common",
+    "weight": 77,
+    "flavor": "A salt-crusted coin hauled from the tides.",
+    "baseValue": 6
+  },
+  {
+    "id": "trinket_079",
+    "name": "Salt-Crusted Coin",
+    "rarity": "uncommon",
+    "weight": 24,
+    "flavor": "A salt-crusted coin hauled from the tides.",
+    "baseValue": 28
+  },
+  {
+    "id": "trinket_080",
+    "name": "Mossy Totem",
+    "rarity": "uncommon",
+    "weight": 41,
+    "flavor": "A mossy totem hauled from the tides.",
+    "baseValue": 10
+  },
+  {
+    "id": "trinket_081",
+    "name": "Polished Totem",
+    "rarity": "common",
+    "weight": 25,
+    "flavor": "A polished totem hauled from the tides.",
+    "baseValue": 7
+  },
+  {
+    "id": "trinket_082",
+    "name": "Tiny Sextant Piece",
+    "rarity": "common",
+    "weight": 40,
+    "flavor": "A tiny sextant piece hauled from the tides.",
+    "baseValue": 14
+  },
+  {
+    "id": "trinket_083",
+    "name": "Gilded Bracelet",
+    "rarity": "common",
+    "weight": 14,
+    "flavor": "A gilded bracelet hauled from the tides.",
+    "baseValue": 2
+  },
+  {
+    "id": "trinket_084",
+    "name": "Polished Shell Charm",
+    "rarity": "common",
+    "weight": 54,
+    "flavor": "A polished shell charm hauled from the tides.",
+    "baseValue": 5
+  },
+  {
+    "id": "trinket_085",
+    "name": "Tiny Map Scrap",
+    "rarity": "common",
+    "weight": 46,
+    "flavor": "A tiny map scrap hauled from the tides.",
+    "baseValue": 11
+  },
+  {
+    "id": "trinket_086",
+    "name": "Salt-Crusted Compass",
+    "rarity": "common",
+    "weight": 61,
+    "flavor": "A salt-crusted compass hauled from the tides.",
+    "baseValue": 8
+  },
+  {
+    "id": "trinket_087",
+    "name": "Gilded Anchor Charm",
+    "rarity": "epic",
+    "weight": 25,
+    "flavor": "A gilded anchor charm hauled from the tides.",
+    "baseValue": 48
+  },
+  {
+    "id": "trinket_088",
+    "name": "Gilded Sextant Piece",
+    "rarity": "rare",
+    "weight": 4,
+    "flavor": "A gilded sextant piece hauled from the tides.",
+    "baseValue": 45
+  },
+  {
+    "id": "trinket_089",
+    "name": "Engraved Map Scrap",
+    "rarity": "uncommon",
+    "weight": 52,
+    "flavor": "A engraved map scrap hauled from the tides.",
+    "baseValue": 6
+  },
+  {
+    "id": "trinket_090",
+    "name": "Salt-Crusted Coin",
+    "rarity": "common",
+    "weight": 8,
+    "flavor": "A salt-crusted coin hauled from the tides.",
+    "baseValue": 10
+  },
+  {
+    "id": "trinket_091",
+    "name": "Engraved Sextant Piece",
+    "rarity": "common",
+    "weight": 78,
+    "flavor": "A engraved sextant piece hauled from the tides.",
+    "baseValue": 12
+  },
+  {
+    "id": "trinket_092",
+    "name": "Gilded Shell Charm",
+    "rarity": "common",
+    "weight": 79,
+    "flavor": "A gilded shell charm hauled from the tides.",
+    "baseValue": 3
+  },
+  {
+    "id": "trinket_093",
+    "name": "Rusted Sextant Piece",
+    "rarity": "uncommon",
+    "weight": 41,
+    "flavor": "A rusted sextant piece hauled from the tides.",
+    "baseValue": 20
+  },
+  {
+    "id": "trinket_094",
+    "name": "Rusted Coin",
+    "rarity": "uncommon",
+    "weight": 77,
+    "flavor": "A rusted coin hauled from the tides.",
+    "baseValue": 8
+  },
+  {
+    "id": "trinket_095",
+    "name": "Weathered Bead",
+    "rarity": "common",
+    "weight": 61,
+    "flavor": "A weathered bead hauled from the tides.",
+    "baseValue": 16
+  },
+  {
+    "id": "trinket_096",
+    "name": "Salt-Crusted Map Scrap",
+    "rarity": "common",
+    "weight": 56,
+    "flavor": "A salt-crusted map scrap hauled from the tides.",
+    "baseValue": 17
+  },
+  {
+    "id": "trinket_097",
+    "name": "Bent Totem",
+    "rarity": "common",
+    "weight": 2,
+    "flavor": "A bent totem hauled from the tides.",
+    "baseValue": 11
+  },
+  {
+    "id": "trinket_098",
+    "name": "Bent Key",
+    "rarity": "common",
+    "weight": 41,
+    "flavor": "A bent key hauled from the tides.",
+    "baseValue": 16
+  },
+  {
+    "id": "trinket_099",
+    "name": "Gilded Map Scrap",
+    "rarity": "rare",
+    "weight": 11,
+    "flavor": "A gilded map scrap hauled from the tides.",
+    "baseValue": 54
+  },
+  {
+    "id": "trinket_100",
+    "name": "Engraved Bottle Cap",
+    "rarity": "rare",
+    "weight": 32,
+    "flavor": "A engraved bottle cap hauled from the tides.",
+    "baseValue": 45
+  }
+]
