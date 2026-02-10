@@ -1,0 +1,29 @@
+{
+  "name": "storytellerslounge-fishing-bot",
+  "version": "1.0.0",
+  "description": "Production-ready Discord fishing bot built with TypeScript, discord.js v14, and SQLite.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "migrate": "tsx src/db/migrate.ts",
+    "register:commands": "tsx src/registerCommands.ts",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.7.0",
+    "discord.js": "^14.17.3",
+    "dotenv": "^16.4.7",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}

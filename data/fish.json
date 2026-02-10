@@ -1,0 +1,1346 @@
+[
+  {
+    "id": "river_perch_1",
+    "name": "River Perch",
+    "water": "fresh",
+    "rarity": "common",
+    "biomes": [
+      "river"
+    ],
+    "weightRangeKg": [
+      1.98,
+      13.84
+    ],
+    "lengthRangeCm": [
+      14.3,
+      83.2
+    ],
+    "baseValue": 217,
+    "flavor": [
+      "The River Perch darts through the river.",
+      "Locals say landing a River Perch brings bragging rights."
+    ]
+  },
+  {
+    "id": "bluegill_2",
+    "name": "Bluegill",
+    "water": "fresh",
+    "rarity": "epic",
+    "biomes": [
+      "river",
+      "swamp"
+    ],
+    "weightRangeKg": [
+      2.73,
+      4.64
+    ],
+    "lengthRangeCm": [
+      35.1,
+      71.6
+    ],
+    "baseValue": 172,
+    "flavor": [
+      "The Bluegill darts through the river.",
+      "Locals say landing a Bluegill brings bragging rights."
+    ]
+  },
+  {
+    "id": "largemouth_bass_3",
+    "name": "Largemouth Bass",
+    "water": "fresh",
+    "rarity": "epic",
+    "biomes": [
+      "river"
+    ],
+    "weightRangeKg": [
+      7.64,
+      18.3
+    ],
+    "lengthRangeCm": [
+      13.7,
+      88.1
+    ],
+    "baseValue": 404,
+    "flavor": [
+      "The Largemouth Bass darts through the river.",
+      "Locals say landing a Largemouth Bass brings bragging rights."
+    ]
+  },
+  {
+    "id": "smallmouth_bass_4",
+    "name": "Smallmouth Bass",
+    "water": "fresh",
+    "rarity": "common",
+    "biomes": [
+      "swamp"
+    ],
+    "weightRangeKg": [
+      10.33,
+      15.83
+    ],
+    "lengthRangeCm": [
+      18.7,
+      41.7
+    ],
+    "baseValue": 347,
+    "flavor": [
+      "The Smallmouth Bass darts through the swamp.",
+      "Locals say landing a Smallmouth Bass brings bragging rights."
+    ]
+  },
+  {
+    "id": "northern_pike_5",
+    "name": "Northern Pike",
+    "water": "fresh",
+    "rarity": "common",
+    "biomes": [
+      "river"
+    ],
+    "weightRangeKg": [
+      7.06,
+      18.7
+    ],
+    "lengthRangeCm": [
+      32.3,
+      102.6
+    ],
+    "baseValue": 342,
+    "flavor": [
+      "The Northern Pike darts through the river.",
+      "Locals say landing a Northern Pike brings bragging rights."
+    ]
+  },
+  {
+    "id": "walleye_6",
+    "name": "Walleye",
+    "water": "fresh",
+    "rarity": "uncommon",
+    "biomes": [
+      "lake",
+      "swamp"
+    ],
+    "weightRangeKg": [
+      6.06,
+      15.82
+    ],
+    "lengthRangeCm": [
+      56.6,
+      117.8
+    ],
+    "baseValue": 313,
+    "flavor": [
+      "The Walleye darts through the lake.",
+      "Locals say landing a Walleye brings bragging rights."
+    ]
+  },
+  {
+    "id": "channel_catfish_7",
+    "name": "Channel Catfish",
+    "water": "fresh",
+    "rarity": "common",
+    "biomes": [
+      "lake"
+    ],
+    "weightRangeKg": [
+      2.32,
+      16.45
+    ],
+    "lengthRangeCm": [
+      14.9,
+      57.9
+    ],
+    "baseValue": 254,
+    "flavor": [
+      "The Channel Catfish darts through the lake.",
+      "Locals say landing a Channel Catfish brings bragging rights."
+    ]
+  },
+  {
+    "id": "rainbow_trout_8",
+    "name": "Rainbow Trout",
+    "water": "fresh",
+    "rarity": "rare",
+    "biomes": [
+      "river",
+      "lake"
+    ],
+    "weightRangeKg": [
+      3.6,
+      21.25
+    ],
+    "lengthRangeCm": [
+      17.1,
+      73.1
+    ],
+    "baseValue": 370,
+    "flavor": [
+      "The Rainbow Trout darts through the river.",
+      "Locals say landing a Rainbow Trout brings bragging rights."
+    ]
+  },
+  {
+    "id": "brown_trout_9",
+    "name": "Brown Trout",
+    "water": "fresh",
+    "rarity": "common",
+    "biomes": [
+      "lake",
+      "swamp"
+    ],
+    "weightRangeKg": [
+      11.55,
+      13.32
+    ],
+    "lengthRangeCm": [
+      43.5,
+      140.3
+    ],
+    "baseValue": 330,
+    "flavor": [
+      "The Brown Trout darts through the lake.",
+      "Locals say landing a Brown Trout brings bragging rights."
+    ]
+  },
+  {
+    "id": "brook_trout_10",
+    "name": "Brook Trout",
+    "water": "fresh",
+    "rarity": "uncommon",
+    "biomes": [
+      "swamp"
+    ],
+    "weightRangeKg": [
+      7.04,
+      15.47
+    ],
+    "lengthRangeCm": [
+      60.4,
+      174.3
+    ],
+    "baseValue": 321,
+    "flavor": [
+      "The Brook Trout darts through the swamp.",
+      "Locals say landing a Brook Trout brings bragging rights."
+    ]
+  },
+  {
+    "id": "carp_11",
+    "name": "Carp",
+    "water": "fresh",
+    "rarity": "common",
+    "biomes": [
+      "swamp"
+    ],
+    "weightRangeKg": [
+      8.83,
+      14.68
+    ],
+    "lengthRangeCm": [
+      44.7,
+      129.6
+    ],
+    "baseValue": 313,
+    "flavor": [
+      "The Carp darts through the swamp.",
+      "Locals say landing a Carp brings bragging rights."
+    ]
+  },
+  {
+    "id": "koi_12",
+    "name": "Koi",
+    "water": "fresh",
+    "rarity": "common",
+    "biomes": [
+      "river"
+    ],
+    "weightRangeKg": [
+      8.09,
+      8.89
+    ],
+    "lengthRangeCm": [
+      37.7,
+      66.2
+    ],
+    "baseValue": 232,
+    "flavor": [
+      "The Koi darts through the river.",
+      "Locals say landing a Koi brings bragging rights."
+    ]
+  },
+  {
+    "id": "muskellunge_13",
+    "name": "Muskellunge",
+    "water": "fresh",
+    "rarity": "common",
+    "biomes": [
+      "river"
+    ],
+    "weightRangeKg": [
+      3.59,
+      16.99
+    ],
+    "lengthRangeCm": [
+      33.9,
+      144.7
+    ],
+    "baseValue": 277,
+    "flavor": [
+      "The Muskellunge darts through the river.",
+      "Locals say landing a Muskellunge brings bragging rights."
+    ]
+  },
+  {
+    "id": "crappie_14",
+    "name": "Crappie",
+    "water": "fresh",
+    "rarity": "common",
+    "biomes": [
+      "lake"
+    ],
+    "weightRangeKg": [
+      6.68,
+      22.63
+    ],
+    "lengthRangeCm": [
+      59.2,
+      164.2
+    ],
+    "baseValue": 386,
+    "flavor": [
+      "The Crappie darts through the lake.",
+      "Locals say landing a Crappie brings bragging rights."
+    ]
+  },
+  {
+    "id": "sunfish_15",
+    "name": "Sunfish",
+    "water": "fresh",
+    "rarity": "legendary",
+    "biomes": [
+      "swamp"
+    ],
+    "weightRangeKg": [
+      8.26,
+      15.36
+    ],
+    "lengthRangeCm": [
+      23.8,
+      42.9
+    ],
+    "baseValue": 395,
+    "flavor": [
+      "The Sunfish darts through the swamp.",
+      "Locals say landing a Sunfish brings bragging rights."
+    ]
+  },
+  {
+    "id": "sturgeon_16",
+    "name": "Sturgeon",
+    "water": "fresh",
+    "rarity": "common",
+    "biomes": [
+      "lake"
+    ],
+    "weightRangeKg": [
+      5.92,
+      16.69
+    ],
+    "lengthRangeCm": [
+      25.8,
+      36.3
+    ],
+    "baseValue": 302,
+    "flavor": [
+      "The Sturgeon darts through the lake.",
+      "Locals say landing a Sturgeon brings bragging rights."
+    ]
+  },
+  {
+    "id": "paddlefish_17",
+    "name": "Paddlefish",
+    "water": "fresh",
+    "rarity": "uncommon",
+    "biomes": [
+      "swamp",
+      "river"
+    ],
+    "weightRangeKg": [
+      3.96,
+      6.57
+    ],
+    "lengthRangeCm": [
+      61.6,
+      176.1
+    ],
+    "baseValue": 171,
+    "flavor": [
+      "The Paddlefish darts through the swamp.",
+      "Locals say landing a Paddlefish brings bragging rights."
+    ]
+  },
+  {
+    "id": "arapaima_18",
+    "name": "Arapaima",
+    "water": "fresh",
+    "rarity": "uncommon",
+    "biomes": [
+      "lake"
+    ],
+    "weightRangeKg": [
+      10.48,
+      27.63
+    ],
+    "lengthRangeCm": [
+      50.8,
+      122.3
+    ],
+    "baseValue": 516,
+    "flavor": [
+      "The Arapaima darts through the lake.",
+      "Locals say landing a Arapaima brings bragging rights."
+    ]
+  },
+  {
+    "id": "snakehead_19",
+    "name": "Snakehead",
+    "water": "fresh",
+    "rarity": "common",
+    "biomes": [
+      "lake"
+    ],
+    "weightRangeKg": [
+      7.68,
+      9.18
+    ],
+    "lengthRangeCm": [
+      14.0,
+      47.0
+    ],
+    "baseValue": 230,
+    "flavor": [
+      "The Snakehead darts through the lake.",
+      "Locals say landing a Snakehead brings bragging rights."
+    ]
+  },
+  {
+    "id": "tilapia_20",
+    "name": "Tilapia",
+    "water": "fresh",
+    "rarity": "uncommon",
+    "biomes": [
+      "river",
+      "swamp"
+    ],
+    "weightRangeKg": [
+      1.41,
+      11.79
+    ],
+    "lengthRangeCm": [
+      42.2,
+      156.6
+    ],
+    "baseValue": 205,
+    "flavor": [
+      "The Tilapia darts through the river.",
+      "Locals say landing a Tilapia brings bragging rights."
+    ]
+  },
+  {
+    "id": "roach_21",
+    "name": "Roach",
+    "water": "fresh",
+    "rarity": "uncommon",
+    "biomes": [
+      "lake"
+    ],
+    "weightRangeKg": [
+      1.95,
+      6.79
+    ],
+    "lengthRangeCm": [
+      30.8,
+      80.9
+    ],
+    "baseValue": 149,
+    "flavor": [
+      "The Roach darts through the lake.",
+      "Locals say landing a Roach brings bragging rights."
+    ]
+  },
+  {
+    "id": "rudd_22",
+    "name": "Rudd",
+    "water": "fresh",
+    "rarity": "legendary",
+    "biomes": [
+      "lake"
+    ],
+    "weightRangeKg": [
+      5.7,
+      14.62
+    ],
+    "lengthRangeCm": [
+      15.2,
+      36.4
+    ],
+    "baseValue": 354,
+    "flavor": [
+      "The Rudd darts through the lake.",
+      "Locals say landing a Rudd brings bragging rights."
+    ]
+  },
+  {
+    "id": "bream_23",
+    "name": "Bream",
+    "water": "fresh",
+    "rarity": "uncommon",
+    "biomes": [
+      "swamp"
+    ],
+    "weightRangeKg": [
+      8.37,
+      17.86
+    ],
+    "lengthRangeCm": [
+      22.3,
+      137.0
+    ],
+    "baseValue": 367,
+    "flavor": [
+      "The Bream darts through the swamp.",
+      "Locals say landing a Bream brings bragging rights."
+    ]
+  },
+  {
+    "id": "tench_24",
+    "name": "Tench",
+    "water": "fresh",
+    "rarity": "uncommon",
+    "biomes": [
+      "lake",
+      "swamp"
+    ],
+    "weightRangeKg": [
+      0.52,
+      10.21
+    ],
+    "lengthRangeCm": [
+      68.7,
+      173.7
+    ],
+    "baseValue": 174,
+    "flavor": [
+      "The Tench darts through the lake.",
+      "Locals say landing a Tench brings bragging rights."
+    ]
+  },
+  {
+    "id": "zander_25",
+    "name": "Zander",
+    "water": "fresh",
+    "rarity": "epic",
+    "biomes": [
+      "swamp",
+      "river"
+    ],
+    "weightRangeKg": [
+      4.4,
+      8.72
+    ],
+    "lengthRangeCm": [
+      42.5,
+      107.8
+    ],
+    "baseValue": 244,
+    "flavor": [
+      "The Zander darts through the swamp.",
+      "Locals say landing a Zander brings bragging rights."
+    ]
+  },
+  {
+    "id": "grayling_26",
+    "name": "Grayling",
+    "water": "fresh",
+    "rarity": "rare",
+    "biomes": [
+      "river"
+    ],
+    "weightRangeKg": [
+      9.86,
+      23.28
+    ],
+    "lengthRangeCm": [
+      23.6,
+      90.5
+    ],
+    "baseValue": 474,
+    "flavor": [
+      "The Grayling darts through the river.",
+      "Locals say landing a Grayling brings bragging rights."
+    ]
+  },
+  {
+    "id": "chub_27",
+    "name": "Chub",
+    "water": "fresh",
+    "rarity": "legendary",
+    "biomes": [
+      "swamp"
+    ],
+    "weightRangeKg": [
+      9.52,
+      18.23
+    ],
+    "lengthRangeCm": [
+      21.6,
+      98.2
+    ],
+    "baseValue": 446,
+    "flavor": [
+      "The Chub darts through the swamp.",
+      "Locals say landing a Chub brings bragging rights."
+    ]
+  },
+  {
+    "id": "minnow_28",
+    "name": "Minnow",
+    "water": "fresh",
+    "rarity": "legendary",
+    "biomes": [
+      "river"
+    ],
+    "weightRangeKg": [
+      11.47,
+      18.29
+    ],
+    "lengthRangeCm": [
+      23.2,
+      58.2
+    ],
+    "baseValue": 472,
+    "flavor": [
+      "The Minnow darts through the river.",
+      "Locals say landing a Minnow brings bragging rights."
+    ]
+  },
+  {
+    "id": "golden_shiner_29",
+    "name": "Golden Shiner",
+    "water": "fresh",
+    "rarity": "uncommon",
+    "biomes": [
+      "swamp"
+    ],
+    "weightRangeKg": [
+      11.83,
+      22.97
+    ],
+    "lengthRangeCm": [
+      10.1,
+      120.1
+    ],
+    "baseValue": 474,
+    "flavor": [
+      "The Golden Shiner darts through the swamp.",
+      "Locals say landing a Golden Shiner brings bragging rights."
+    ]
+  },
+  {
+    "id": "mudskipper_30",
+    "name": "Mudskipper",
+    "water": "fresh",
+    "rarity": "common",
+    "biomes": [
+      "river"
+    ],
+    "weightRangeKg": [
+      7.99,
+      24.4
+    ],
+    "lengthRangeCm": [
+      56.9,
+      149.4
+    ],
+    "baseValue": 424,
+    "flavor": [
+      "The Mudskipper darts through the river.",
+      "Locals say landing a Mudskipper brings bragging rights."
+    ]
+  },
+  {
+    "id": "atlantic_cod_1",
+    "name": "Atlantic Cod",
+    "water": "salt",
+    "rarity": "common",
+    "biomes": [
+      "coast"
+    ],
+    "weightRangeKg": [
+      7.7,
+      9.63
+    ],
+    "lengthRangeCm": [
+      66.8,
+      156.2
+    ],
+    "baseValue": 236,
+    "flavor": [
+      "The Atlantic Cod darts through the coast.",
+      "Locals say landing a Atlantic Cod brings bragging rights."
+    ]
+  },
+  {
+    "id": "bluefin_tuna_2",
+    "name": "Bluefin Tuna",
+    "water": "salt",
+    "rarity": "rare",
+    "biomes": [
+      "coast",
+      "deep"
+    ],
+    "weightRangeKg": [
+      2.21,
+      4.85
+    ],
+    "lengthRangeCm": [
+      19.1,
+      128.6
+    ],
+    "baseValue": 148,
+    "flavor": [
+      "The Bluefin Tuna darts through the coast.",
+      "Locals say landing a Bluefin Tuna brings bragging rights."
+    ]
+  },
+  {
+    "id": "swordfish_3",
+    "name": "Swordfish",
+    "water": "salt",
+    "rarity": "uncommon",
+    "biomes": [
+      "coast",
+      "deep"
+    ],
+    "weightRangeKg": [
+      4.33,
+      14.39
+    ],
+    "lengthRangeCm": [
+      17.9,
+      29.5
+    ],
+    "baseValue": 274,
+    "flavor": [
+      "The Swordfish darts through the coast.",
+      "Locals say landing a Swordfish brings bragging rights."
+    ]
+  },
+  {
+    "id": "mahi_mahi_4",
+    "name": "Mahi Mahi",
+    "water": "salt",
+    "rarity": "common",
+    "biomes": [
+      "coast"
+    ],
+    "weightRangeKg": [
+      10.49,
+      25.43
+    ],
+    "lengthRangeCm": [
+      22.7,
+      60.4
+    ],
+    "baseValue": 469,
+    "flavor": [
+      "The Mahi Mahi darts through the coast.",
+      "Locals say landing a Mahi Mahi brings bragging rights."
+    ]
+  },
+  {
+    "id": "red_snapper_5",
+    "name": "Red Snapper",
+    "water": "salt",
+    "rarity": "rare",
+    "biomes": [
+      "deep",
+      "coast"
+    ],
+    "weightRangeKg": [
+      4.05,
+      14.03
+    ],
+    "lengthRangeCm": [
+      60.1,
+      76.8
+    ],
+    "baseValue": 286,
+    "flavor": [
+      "The Red Snapper darts through the deep.",
+      "Locals say landing a Red Snapper brings bragging rights."
+    ]
+  },
+  {
+    "id": "halibut_6",
+    "name": "Halibut",
+    "water": "salt",
+    "rarity": "rare",
+    "biomes": [
+      "coast",
+      "deep"
+    ],
+    "weightRangeKg": [
+      10.56,
+      13.26
+    ],
+    "lengthRangeCm": [
+      19.1,
+      85.3
+    ],
+    "baseValue": 357,
+    "flavor": [
+      "The Halibut darts through the coast.",
+      "Locals say landing a Halibut brings bragging rights."
+    ]
+  },
+  {
+    "id": "flounder_7",
+    "name": "Flounder",
+    "water": "salt",
+    "rarity": "rare",
+    "biomes": [
+      "deep"
+    ],
+    "weightRangeKg": [
+      1.97,
+      4.86
+    ],
+    "lengthRangeCm": [
+      47.1,
+      70.3
+    ],
+    "baseValue": 145,
+    "flavor": [
+      "The Flounder darts through the deep.",
+      "Locals say landing a Flounder brings bragging rights."
+    ]
+  },
+  {
+    "id": "grouper_8",
+    "name": "Grouper",
+    "water": "salt",
+    "rarity": "rare",
+    "biomes": [
+      "deep",
+      "coast"
+    ],
+    "weightRangeKg": [
+      1.45,
+      11.71
+    ],
+    "lengthRangeCm": [
+      24.9,
+      65.4
+    ],
+    "baseValue": 224,
+    "flavor": [
+      "The Grouper darts through the deep.",
+      "Locals say landing a Grouper brings bragging rights."
+    ]
+  },
+  {
+    "id": "barracuda_9",
+    "name": "Barracuda",
+    "water": "salt",
+    "rarity": "rare",
+    "biomes": [
+      "deep",
+      "coast"
+    ],
+    "weightRangeKg": [
+      10.97,
+      19.17
+    ],
+    "lengthRangeCm": [
+      46.8,
+      112.4
+    ],
+    "baseValue": 436,
+    "flavor": [
+      "The Barracuda darts through the deep.",
+      "Locals say landing a Barracuda brings bragging rights."
+    ]
+  },
+  {
+    "id": "mackerel_10",
+    "name": "Mackerel",
+    "water": "salt",
+    "rarity": "uncommon",
+    "biomes": [
+      "deep",
+      "coast"
+    ],
+    "weightRangeKg": [
+      9.73,
+      19.07
+    ],
+    "lengthRangeCm": [
+      24.9,
+      92.5
+    ],
+    "baseValue": 400,
+    "flavor": [
+      "The Mackerel darts through the deep.",
+      "Locals say landing a Mackerel brings bragging rights."
+    ]
+  },
+  {
+    "id": "sardine_11",
+    "name": "Sardine",
+    "water": "salt",
+    "rarity": "rare",
+    "biomes": [
+      "coast"
+    ],
+    "weightRangeKg": [
+      1.82,
+      4.36
+    ],
+    "lengthRangeCm": [
+      36.5,
+      54.5
+    ],
+    "baseValue": 137,
+    "flavor": [
+      "The Sardine darts through the coast.",
+      "Locals say landing a Sardine brings bragging rights."
+    ]
+  },
+  {
+    "id": "anchovy_12",
+    "name": "Anchovy",
+    "water": "salt",
+    "rarity": "common",
+    "biomes": [
+      "deep",
+      "coast"
+    ],
+    "weightRangeKg": [
+      3.77,
+      6.32
+    ],
+    "lengthRangeCm": [
+      56.6,
+      169.9
+    ],
+    "baseValue": 146,
+    "flavor": [
+      "The Anchovy darts through the deep.",
+      "Locals say landing a Anchovy brings bragging rights."
+    ]
+  },
+  {
+    "id": "herring_13",
+    "name": "Herring",
+    "water": "salt",
+    "rarity": "common",
+    "biomes": [
+      "coast",
+      "deep"
+    ],
+    "weightRangeKg": [
+      1.82,
+      10.45
+    ],
+    "lengthRangeCm": [
+      54.8,
+      75.2
+    ],
+    "baseValue": 173,
+    "flavor": [
+      "The Herring darts through the coast.",
+      "Locals say landing a Herring brings bragging rights."
+    ]
+  },
+  {
+    "id": "marlin_14",
+    "name": "Marlin",
+    "water": "salt",
+    "rarity": "common",
+    "biomes": [
+      "deep"
+    ],
+    "weightRangeKg": [
+      5.29,
+      14.76
+    ],
+    "lengthRangeCm": [
+      30.3,
+      61.8
+    ],
+    "baseValue": 270,
+    "flavor": [
+      "The Marlin darts through the deep.",
+      "Locals say landing a Marlin brings bragging rights."
+    ]
+  },
+  {
+    "id": "sailfish_15",
+    "name": "Sailfish",
+    "water": "salt",
+    "rarity": "common",
+    "biomes": [
+      "coast",
+      "deep"
+    ],
+    "weightRangeKg": [
+      6.74,
+      14.89
+    ],
+    "lengthRangeCm": [
+      11.1,
+      57.6
+    ],
+    "baseValue": 290,
+    "flavor": [
+      "The Sailfish darts through the coast.",
+      "Locals say landing a Sailfish brings bragging rights."
+    ]
+  },
+  {
+    "id": "kingfish_16",
+    "name": "Kingfish",
+    "water": "salt",
+    "rarity": "legendary",
+    "biomes": [
+      "coast"
+    ],
+    "weightRangeKg": [
+      9.5,
+      27.0
+    ],
+    "lengthRangeCm": [
+      16.3,
+      55.5
+    ],
+    "baseValue": 556,
+    "flavor": [
+      "The Kingfish darts through the coast.",
+      "Locals say landing a Kingfish brings bragging rights."
+    ]
+  },
+  {
+    "id": "amberjack_17",
+    "name": "Amberjack",
+    "water": "salt",
+    "rarity": "common",
+    "biomes": [
+      "coast"
+    ],
+    "weightRangeKg": [
+      1.73,
+      9.56
+    ],
+    "lengthRangeCm": [
+      64.7,
+      164.8
+    ],
+    "baseValue": 161,
+    "flavor": [
+      "The Amberjack darts through the coast.",
+      "Locals say landing a Amberjack brings bragging rights."
+    ]
+  },
+  {
+    "id": "lionfish_18",
+    "name": "Lionfish",
+    "water": "salt",
+    "rarity": "uncommon",
+    "biomes": [
+      "coast",
+      "deep"
+    ],
+    "weightRangeKg": [
+      6.27,
+      15.38
+    ],
+    "lengthRangeCm": [
+      29.6,
+      70.3
+    ],
+    "baseValue": 310,
+    "flavor": [
+      "The Lionfish darts through the coast.",
+      "Locals say landing a Lionfish brings bragging rights."
+    ]
+  },
+  {
+    "id": "moray_eel_19",
+    "name": "Moray Eel",
+    "water": "salt",
+    "rarity": "epic",
+    "biomes": [
+      "coast",
+      "deep"
+    ],
+    "weightRangeKg": [
+      3.37,
+      4.07
+    ],
+    "lengthRangeCm": [
+      15.3,
+      54.0
+    ],
+    "baseValue": 173,
+    "flavor": [
+      "The Moray Eel darts through the coast.",
+      "Locals say landing a Moray Eel brings bragging rights."
+    ]
+  },
+  {
+    "id": "sea_bass_20",
+    "name": "Sea Bass",
+    "water": "salt",
+    "rarity": "common",
+    "biomes": [
+      "coast",
+      "deep"
+    ],
+    "weightRangeKg": [
+      1.64,
+      2.24
+    ],
+    "lengthRangeCm": [
+      69.7,
+      125.7
+    ],
+    "baseValue": 68,
+    "flavor": [
+      "The Sea Bass darts through the coast.",
+      "Locals say landing a Sea Bass brings bragging rights."
+    ]
+  },
+  {
+    "id": "pollock_21",
+    "name": "Pollock",
+    "water": "salt",
+    "rarity": "uncommon",
+    "biomes": [
+      "deep"
+    ],
+    "weightRangeKg": [
+      3.01,
+      5.34
+    ],
+    "lengthRangeCm": [
+      19.7,
+      35.2
+    ],
+    "baseValue": 144,
+    "flavor": [
+      "The Pollock darts through the deep.",
+      "Locals say landing a Pollock brings bragging rights."
+    ]
+  },
+  {
+    "id": "monkfish_22",
+    "name": "Monkfish",
+    "water": "salt",
+    "rarity": "uncommon",
+    "biomes": [
+      "coast"
+    ],
+    "weightRangeKg": [
+      6.47,
+      10.49
+    ],
+    "lengthRangeCm": [
+      36.7,
+      120.6
+    ],
+    "baseValue": 252,
+    "flavor": [
+      "The Monkfish darts through the coast.",
+      "Locals say landing a Monkfish brings bragging rights."
+    ]
+  },
+  {
+    "id": "tilefish_23",
+    "name": "Tilefish",
+    "water": "salt",
+    "rarity": "legendary",
+    "biomes": [
+      "coast",
+      "deep"
+    ],
+    "weightRangeKg": [
+      0.64,
+      1.36
+    ],
+    "lengthRangeCm": [
+      40.3,
+      157.9
+    ],
+    "baseValue": 125,
+    "flavor": [
+      "The Tilefish darts through the coast.",
+      "Locals say landing a Tilefish brings bragging rights."
+    ]
+  },
+  {
+    "id": "triggerfish_24",
+    "name": "Triggerfish",
+    "water": "salt",
+    "rarity": "common",
+    "biomes": [
+      "deep"
+    ],
+    "weightRangeKg": [
+      9.86,
+      17.87
+    ],
+    "lengthRangeCm": [
+      39.7,
+      141.5
+    ],
+    "baseValue": 366,
+    "flavor": [
+      "The Triggerfish darts through the deep.",
+      "Locals say landing a Triggerfish brings bragging rights."
+    ]
+  },
+  {
+    "id": "bonito_25",
+    "name": "Bonito",
+    "water": "salt",
+    "rarity": "uncommon",
+    "biomes": [
+      "deep",
+      "coast"
+    ],
+    "weightRangeKg": [
+      11.79,
+      18.22
+    ],
+    "lengthRangeCm": [
+      59.9,
+      147.6
+    ],
+    "baseValue": 415,
+    "flavor": [
+      "The Bonito darts through the deep.",
+      "Locals say landing a Bonito brings bragging rights."
+    ]
+  },
+  {
+    "id": "pomfret_26",
+    "name": "Pomfret",
+    "water": "salt",
+    "rarity": "legendary",
+    "biomes": [
+      "coast"
+    ],
+    "weightRangeKg": [
+      10.08,
+      10.73
+    ],
+    "lengthRangeCm": [
+      47.5,
+      154.3
+    ],
+    "baseValue": 360,
+    "flavor": [
+      "The Pomfret darts through the coast.",
+      "Locals say landing a Pomfret brings bragging rights."
+    ]
+  },
+  {
+    "id": "sea_bream_27",
+    "name": "Sea Bream",
+    "water": "salt",
+    "rarity": "common",
+    "biomes": [
+      "deep"
+    ],
+    "weightRangeKg": [
+      10.13,
+      25.85
+    ],
+    "lengthRangeCm": [
+      50.2,
+      91.2
+    ],
+    "baseValue": 469,
+    "flavor": [
+      "The Sea Bream darts through the deep.",
+      "Locals say landing a Sea Bream brings bragging rights."
+    ]
+  },
+  {
+    "id": "wrasse_28",
+    "name": "Wrasse",
+    "water": "salt",
+    "rarity": "common",
+    "biomes": [
+      "deep"
+    ],
+    "weightRangeKg": [
+      2.39,
+      7.53
+    ],
+    "lengthRangeCm": [
+      10.2,
+      60.3
+    ],
+    "baseValue": 144,
+    "flavor": [
+      "The Wrasse darts through the deep.",
+      "Locals say landing a Wrasse brings bragging rights."
+    ]
+  },
+  {
+    "id": "drumfish_29",
+    "name": "Drumfish",
+    "water": "salt",
+    "rarity": "common",
+    "biomes": [
+      "deep"
+    ],
+    "weightRangeKg": [
+      11.59,
+      17.44
+    ],
+    "lengthRangeCm": [
+      31.4,
+      41.5
+    ],
+    "baseValue": 382,
+    "flavor": [
+      "The Drumfish darts through the deep.",
+      "Locals say landing a Drumfish brings bragging rights."
+    ]
+  },
+  {
+    "id": "needlefish_30",
+    "name": "Needlefish",
+    "water": "salt",
+    "rarity": "common",
+    "biomes": [
+      "coast",
+      "deep"
+    ],
+    "weightRangeKg": [
+      7.94,
+      12.71
+    ],
+    "lengthRangeCm": [
+      56.6,
+      76.6
+    ],
+    "baseValue": 278,
+    "flavor": [
+      "The Needlefish darts through the coast.",
+      "Locals say landing a Needlefish brings bragging rights."
+    ]
+  }
+]
