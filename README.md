@@ -1,159 +1,137 @@
-# Discord Fishing Bot (Storytellers Lounge)
+# Recap Scribe
 
-Production-ready Discord fishing minigame bot built with **TypeScript + discord.js v14 + SQLite (better-sqlite3)**.
+Recap Scribe is a Discord slash-command bot for Dungeon Masters to draft, preview, export, and publish D&D session recap logs.
 
 ## Features
 
-- Slash commands for freshwater and saltwater fishing
-- Data-driven fish catalog (`data/fish.json`) with rarity, biome, sizes, values, and flavor lines
-- Weighted rarity rolls with optional luck-based rarity upgrade
-- Optional trinket drops (`data/trinkets.json`) with weighted loot table
-- Per-user, per-guild, per-command cooldowns
-- Guild-level admin configuration for cooldown, rewards mode, trinkets, and fish import/export
-- SQLite persistence with auto migrations
-- Unit tests for rarity distribution, cooldown logic, and JSON schema validation
-- Docker + docker-compose deployment support
+- Slash-commands only (`discord.py` app commands).
+- Draft-first DM workflow in `#dm-drafts`.
+- Multi-part session splitting with spreadsheet-equivalent rules.
+- Player mention support through Discord user picker.
+- JSON storage abstraction (`data/guild_<guild_id>.json`) ready for SQLite backend later.
+- `/audit` self-tool for XP and DTP only.
+- Auto split of long output into multiple Discord messages (2000 char limit safe).
+- `/admin sync` for on-demand slash command resync.
+
+## Requirements
+
+- Python 3.12+
+- Discord bot token
+
+## Install (Windows 11)
+
+```powershell
+py -3.12 -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+copy .env.example .env
+```
+
+Edit `.env` with your bot values.
+
+## Discord Developer Portal setup
+
+1. Create an application + bot user.
+2. Enable **Server Members Intent**.
+3. Do **not** enable Message Content Intent (not required).
+4. OAuth2 URL scopes:
+   - `bot`
+   - `applications.commands`
+5. Grant needed bot permissions to send messages and use slash commands.
+
+## Run
+
+```bash
+python bot.py
+```
+
+Expected startup log:
+
+- `Commands synced to guild <id>` (default dev mode when `DISCORD_GUILD_ID` is set)
+- or `Commands synced globally`
+
+## Sync modes
+
+- Default: `SYNC_MODE=guild` with `DISCORD_GUILD_ID` set for instant command updates.
+- Optional: set `SYNC_MODE=global` (or unset `DISCORD_GUILD_ID`) for global sync.
+- Admins can run `/admin sync` to force resync.
+
+## DM permissions and channel constraints
+
+DM tools are restricted to:
+
+- Users with role named exactly `DM`.
+- Channel named exactly `dm-drafts`.
+
+Fallback if role `DM` does not exist:
+
+- Server owner and users with **Manage Server** can use DM tools.
+
+You can change names via `.env`.
 
 ## Commands
 
-- `/fish` - Freshwater catch
-- `/fishsea` - Saltwater catch
-- `/fishdex [all]` - User discovered fish (or full catalog for admins)
-- `/sell [catch_id]` - Sell last or selected catch (coins mode only)
-- `/inventory` - Summary of fish count, trinkets, and coins
-- `/quest` - Generates 3 random fish targets with payout + deadline
-- `/admin setcooldown <seconds>`
-- `/admin togglerewards <off|flavor|coins>`
-- `/admin toggletrinkets <on|off>`
-- `/admin importfish <attach JSON>`
-- `/admin exportfish`
+### Diagnostics
 
-Admin commands require **Manage Server** permission.
+- `/ping` → `Pong` (ephemeral)
+- `/admin sync` → admin-only slash command resync
 
-## Project Structure
+### Player-facing
 
-```
-src/
-  commands/
-  config/
-  db/
-    migrations/
-  i18n/
-  repositories/
-  services/
-  types/
-  utils/
-package.json
-tsconfig.json
-.env.example
-data/
-  fish.json
-  trinkets.json
-Dockerfile
-docker-compose.yml
-```
+- `/audit level:<1-20> hours:<0.5-17.5>`
+  - Shows per-part and total XP + DTP.
 
-## Setup (Local)
+### DM workflow (`#dm-drafts` only)
 
-### 1) Create a Discord App + Bot
-1. Open <https://discord.com/developers/applications>
-2. Create **New Application**
-3. In **Bot** tab, create/add bot user and copy token
-4. In **OAuth2 > URL Generator**:
-   - Scopes: `bot`, `applications.commands`
-   - Bot Permissions: at minimum `Send Messages`, `Use Slash Commands`
-5. Invite bot to your server with generated URL
+- `/recap start`
+- `/recap list`
+- `/recap use`
+- `/recap delete`
+- `/recap part list`
+- `/recap part set`
+- `/recap player add`
+- `/recap player edit` (modal)
+- `/recap player remove`
+- `/recap dm edit` (modal)
+- `/recap narrative` (modal)
+- `/recap preview`
+- `/recap export`
+- `/recap publish`
 
-### 2) Configure environment
-```bash
-cp .env.example .env
-# edit .env with your token/client id
-```
+### Future stub
 
-### 3) Install and run migrations
-```bash
-npm install
-npm run migrate
-```
+- `/listing generate` → "Not implemented yet"
 
-### 4) Register slash commands
-```bash
-npm run register:commands
-```
+## Rules and configuration tables
 
-Tip: set `DISCORD_GUILD_ID` for instant guild command updates during development.
+- `config/rules.example.json` holds:
+  - `xp_per_hour`
+  - `max_gp_by_level` (player GP hint table)
+  - `dm_gp_suggestion_per_hour_by_level` (editable DM GP suggestion model)
 
+To customize in production, copy to `config/rules.json` and edit values.
 
-### Discord Installation UI note (new developer portal)
-If your **Install Link** still looks like `https://discord.com/oauth2/authorize?client_id=...`, that can be normal in Discord's new UI.
-The link can stay short while Discord applies your **Default Install Settings** (Guild Install scopes + permissions) server-side.
+## Storage format
 
-For this bot, ensure **Guild Install** includes:
-- Scopes: `bot`, `applications.commands`
-- Permissions: `Send Messages`, `Use Slash Commands`
+Each guild file:
 
-If needed, you can also use a fully explicit URL:
+- `data/guild_<guild_id>.json`
+- Stores drafts, active draft pointers, per-part rewards, DM rewards, and narrative.
 
-```
-https://discord.com/oauth2/authorize?client_id=<YOUR_CLIENT_ID>&scope=bot%20applications.commands&permissions=2147485696
-```
+## Troubleshooting slash commands not appearing
 
+1. Confirm startup log shows sync mode result.
+2. Ensure bot invited with `applications.commands` scope.
+3. Use `SYNC_MODE=guild` + `DISCORD_GUILD_ID` for instant test iteration.
+4. Run `/admin sync` as admin.
+5. Re-invite bot if scopes were changed after initial invite.
+6. Confirm bot has access to target server/channel.
 
-### 5) Run bot
-```bash
-npm run dev
-```
+## Manual acceptance checklist
 
-Production:
-```bash
-npm run build
-npm start
-```
-
-## Database
-
-SQLite file path is configured by `DATABASE_PATH` (default `./data/bot.sqlite`).
-Migrations live in `src/db/migrations` and are applied automatically at startup (and by `npm run migrate`).
-
-## Fish JSON import format
-
-Each entry must match:
-
-```json
-{
-  "id": "unique_string",
-  "name": "Amur Catfish",
-  "water": "fresh",
-  "rarity": "common",
-  "biomes": ["river", "lake"],
-  "weightRangeKg": [1.5, 8.2],
-  "lengthRangeCm": [25, 90],
-  "baseValue": 120,
-  "flavor": ["line1", "line2"]
-}
-```
-
-Invalid imports are rejected with actionable validation errors.
-
-## Docker deployment
-
-### Build and run with Docker Compose
-```bash
-docker compose up -d --build
-```
-
-### Logs
-```bash
-docker compose logs -f fishing-bot
-```
-
-## Tests
-
-```bash
-npm test
-```
-
-Includes:
-- rarity roll distribution sanity test
-- cooldown behavior test
-- fish JSON schema validation test
+1. Start bot and verify `Commands synced to guild` (or global) in console.
+2. In Discord, verify `/ping` appears and returns `Pong`.
+3. In `#dm-drafts` as DM, `/recap start` creates draft with parts.
+4. `/recap player add` stores member mention + player info; `/recap preview` computes XP and DTP.
+5. `/audit` matches XP/hour table and DTP formula.
+6. `/recap preview` splits long output across multiple messages when needed.

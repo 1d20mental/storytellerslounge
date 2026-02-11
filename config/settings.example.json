@@ -1,0 +1,6 @@
+{
+  "dm_role_name": "DM",
+  "draft_channel_name": "dm-drafts",
+  "default_publish_channel_name": "session-log",
+  "sync_mode": "guild"
+}
