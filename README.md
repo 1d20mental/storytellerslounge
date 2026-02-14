@@ -2,6 +2,25 @@
 
 Recap Scribe is a Discord slash-command bot for Dungeon Masters to draft, preview, export, and publish D&D session recap logs.
 
+
+## Downtime Bot (Hetzner)
+
+Downtime bot lives under `downtime_bot/` and deploys as a separate systemd service (`downtime_bot.service`).
+
+```bash
+cd /opt/storytellerslounge
+git fetch --all --prune
+git checkout main
+git pull
+ls -la downtime_bot || REPO_URL=git@github.com:<ORG>/<REPO>.git REF=main bash scripts/pull_downtime_from_github.sh
+cp downtime_bot/.env.example downtime_bot/.env
+nano downtime_bot/.env
+bash downtime_bot/scripts/bootstrap_hetzner.sh
+journalctl -u downtime_bot -f
+```
+
+If `downtime_bot/` is missing, use the root helper `scripts/pull_downtime_from_github.sh` first.
+
 ## Features
 
 - Slash-commands only (`discord.py` app commands).

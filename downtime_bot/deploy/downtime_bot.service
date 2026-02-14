@@ -1,0 +1,16 @@
+[Unit]
+Description=Storyteller's Lounge Downtime Bot
+After=network.target
+
+[Service]
+Type=simple
+User=storyteller
+WorkingDirectory=/opt/storytellerslounge
+EnvironmentFile=/opt/storytellerslounge/downtime_bot/.env
+Environment=PYTHONPATH=/opt/storytellerslounge/downtime_bot/src
+ExecStart=/opt/storytellerslounge/downtime_bot/.venv/bin/python -m downtime_bot.bot
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

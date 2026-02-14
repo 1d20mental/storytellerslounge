@@ -1,0 +1,21 @@
+{
+  "version": "2025-12-28",
+  "downtime_activities": [
+    {
+      "key": "research_lore",
+      "name": "Research Lore",
+      "dtp_cost": 2,
+      "gp_cost": 25,
+      "description": "Spend time in archives to uncover practical lore.",
+      "outcome": "You uncover one actionable lore lead approved by staff."
+    }
+  ],
+  "bastion_facilities": [
+    {
+      "key": "archive",
+      "name": "Archive",
+      "tier": "basic",
+      "description": "A repository for maps, tomes, and records."
+    }
+  ]
+}
