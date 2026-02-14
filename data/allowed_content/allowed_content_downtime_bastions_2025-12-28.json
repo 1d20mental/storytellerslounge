@@ -1,0 +1,1693 @@
+{
+  "meta": {
+    "generated_on": "2026-02-13T21:35:43.003637",
+    "source_file": "Dec 28 2025 Allowed Content.xlsx",
+    "dtp_per_hour_played": 5,
+    "dtp_unit": "day"
+  },
+  "downtime": {
+    "global_rules": [
+      "You can't spent the same DTP for more than one activity. Except where otherwise stated, the minimum DTP for any activity is 1.",
+      "You additionally expend 1 GP per DTP expended on activities other than Traveling while not in -----"
+    ],
+    "sections": {
+      "Bastions": {
+        "notes": [
+          "You must be level 5+ to build and benefit from a Bastion. You can only build and benefit from one Bastion as part of downtime (see Appendix B of the TBD Guidelines for details)",
+          "You can only construct a Bastion either a) near ----- or a guild outpost or b) at another world location if you are able to claim a parcel of land or stronghold as part of an adventure as determined by the DM."
+        ],
+        "activities": [
+          {
+            "row": 11,
+            "name": "Construct or Expand a Bastion",
+            "gold": "Varies",
+            "dtp_cost": "Varies",
+            "description": "Constructing or expanding a Bastion by adding or replacing one or more facilities. See the Bastions sheet for details and Appendix B of the TBD Guidelines for details.",
+            "notes": "- Bastions use the rules for Bastions as described in chapter 8 of the 2024 Dungeon Master's Guide, with modifications as listed in the Bastions sheet and Appendix B of the TBD Guidelines.\n- Your starting Bastion must contain two Basic Facilities (one Cramped, one Roomy) and two Special Facilities you qualify for.\n- Any facility or component built as part of a Bastion can be torn down and 50% of its gold cost refunded. The Bastion must still contain at least two Basic Facilities (including one Cramped and one Roomy) and two Special Facilities afterward to be useable.                                                                                                                \n- A Special Facility can be replaced with another Special Facility by paying the gold and DTP to build the new facility, but the full gold cost of the old facility contributes to the new one                                                                                                                \n- You can combine your Bastion with Bastions built by one or more characters of other players into a single structure as written in the 2024 Dungeon Master's Guide (page 334). Each participant can mutually contribute gold and DTP in building and expanding Bastions in this way."
+          },
+          {
+            "row": 12,
+            "name": "Construct or Expand a Shared Bastion",
+            "gold": "Varies",
+            "dtp_cost": "Varies",
+            "description": "Constructing or expanding a Bastion that is Shared by characters of different players.* See the Bastions sheet for details and Appendix B of the TBD Guidelines for details.**\n\n* Each participant must build one or more Special Facilities of a Shared Bastion, with the maximum number of Special Facilities in a Shared Bastion according to the highest level participating PC (up to 6 by level 17+).\n\n** An existing Bastion can be converted into a Shared Bastion with new participants constructing one or more Special Facilities. If the Bastion already has the maximum number of Special Facilities according to the highest level participating PC, an existing Special Facility must be torn down first to make room. Additionally, Shared Bastions can be Combined with either the singular or Shared Bastions of PCs of other players as normal.",
+            "notes": "- A Shared Bastion is a single Bastion built and expanded by one or more characters of different players. This Bastion counts as the single Bastion a character can benefit from at a single time and each participant can mutually benefit from and issue orders to any Special Facility they meet the prerequisites for.\n- To construct a Shared Bastion, the construction must be specifically logged as a Shared Bastion in #downtime-logs, with each participant logging the facilities they are contributing gold and DTP to build. A participant must contribute the entire gold and DTP cost to construct at least one Special Facility of a Shared Bastion to benefit from a Shared Bastion. Likewise, the entire cost of any individual Basic Facility or other component (such as a Defensive Wall) must be fully paid for in gold and DTP by a single participant at a time.\n- The initial construction logs by each participant must also indicate the initial list of Special Facilities each participant is choosing to benefit from. The maximum number of Special Facilities any individual participant can benefit from at a time still depends on their character level as per the table in Appendix B of the TBD Guidelines and the maximum number of such facilities in the Bastion depends on the highest level participant.\n- When expanding a Shared Bastion with additional Basic and Special Facilities, each participant must also log which newly constructed Special Facilities if any they are now benefitting from. These logs must reply to the most recent construction or expansion logs in #downtime-logs and must have an updated list of the Bastion's facilities.\n- A participant that levels up and can benefit from more Special Facilities must likewise log which additional Special Facilities if any they are choosing to gain the benefit of and must reply to the most recent construction or expansion log in #downtime-logs\n- Besides adding to the list of Special Facilities they are benefitting from, a participant can swap one Special Facility they are benefitting from for another existing Special Facility by expending the DTP cost to construct the latter Special Facility and log the swap in #downtime-logs by replying to the most recent construction or expansion log in #downtime-logs\n- If a participant wishes to tear down a facility or component or otherwise replace a Special Facility with another one, they must log doing so in #downtime-logs by replying to the most recent construction or expansion log and with an updated list of the Bastion's facilities. A participant can only tear down or replace a facility or component they constructed. Each participant must log which Special Facilities if any they are now benefitting from, excising any Special Facility that was torn down from their list.\n- Bastion Turns are issued individually as if a participant was the sole owner of the Bastion and can only order facilities they are benefitting from."
+          },
+          {
+            "row": 13,
+            "name": "Taking a Bastion Turn",
+            "gold": 0.0,
+            "dtp_cost": 7.0,
+            "description": "Taking a Bastion Turn and issuing orders to one or more of your Bastion's Special Facilities (except Maintain)",
+            "notes": "- When taking a Bastion Turn in downtime, you can't issue the Maintain order. You must be present at your Bastion or have a way to communicate with your Bastion's hirelings (e.g. Sending) to take a Bastion turn. (Because the Maintain order can't be issued, Bastion Events can't occur during downtime)\n- When taking a Bastion Turn during an adventure, you must still expend 7 DTP unless the Maintain order is issued. A DM can choose to incorporate Bastion Events during an adventure after the Maintain order has been issued. Any rewards obtained via a Bastion Event must fit within the adventure's gold and item allotment using the server rules."
+          }
+        ]
+      },
+      "Buying and Selling": {
+        "notes": [
+          "Individual items worth up to 15,000 GP can be purchased in -----. More expensive items must be purchased in Waterdeep or other major cities."
+        ],
+        "activities": [
+          {
+            "row": 18,
+            "name": "Buying or Selling Armor",
+            "gold": "Varies",
+            "dtp_cost": 0.0,
+            "description": "Buying or selling Armor. See link to Equipment sheet for details.",
+            "notes": "Armor you sell fetches half price"
+          },
+          {
+            "row": 19,
+            "name": "Buying or Selling Weapons",
+            "gold": "Varies",
+            "dtp_cost": 0.0,
+            "description": "Buying or selling Weapons. See link to Equipment sheet for details.",
+            "notes": "Weapons you sell fetch half price"
+          },
+          {
+            "row": 20,
+            "name": "Buying or Selling Tools",
+            "gold": "Varies",
+            "dtp_cost": 0.0,
+            "description": "Buying or selling Tools. See link to Equipment sheet for details.",
+            "notes": "Tools you sell fetch half price"
+          },
+          {
+            "row": 21,
+            "name": "Buying or Selling Adventuring Gear",
+            "gold": "Varies",
+            "dtp_cost": 0.0,
+            "description": "Buying or selling Adventuring Gear. See link to Equipment sheet for details.",
+            "notes": "Adventuring Gear you sell fetches half price"
+          },
+          {
+            "row": 22,
+            "name": "Buying or Selling Poisons",
+            "gold": "Varies",
+            "dtp_cost": 0.0,
+            "description": "Buying or selling Poisons. See link to Equipment sheet for details.",
+            "notes": "- Poisons you sell fetch full price\n- The discount from the Crafter feat (2024) doesn't apply when buying Poisons\n- Note that Basic Poison is considered Adventuring Gear and only fetches half price when resold (50 GP)"
+          },
+          {
+            "row": 23,
+            "name": "Buying or Selling Trade Goods",
+            "gold": "Varies",
+            "dtp_cost": 0.0,
+            "description": "Buying or selling Trade Goods. See link to Equipment sheet for details.",
+            "notes": "- Trade Goods you sell fetch full price\n- The discount from the Crafter feat (2024) doesn't apply when buying Trade Goods"
+          },
+          {
+            "row": 24,
+            "name": "Buying or Selling Mounts, Vehicles, or Pets",
+            "gold": "Varies",
+            "dtp_cost": 0.0,
+            "description": "Buying or selling Mounts, Vehicles, or Pets. See link to Equipment sheet for details.",
+            "notes": "Mounts, Vehicles, or Pets you sell fetch half price"
+          },
+          {
+            "row": 25,
+            "name": "Buying or Selling Miscellaneous",
+            "gold": "Varies",
+            "dtp_cost": 0.0,
+            "description": "Buying or selling other Miscellaneous items. See link to Equipment sheet for details.",
+            "notes": "Refer to link for details."
+          },
+          {
+            "row": 26,
+            "name": "Selling Art Objects, Gems, and Jewelry",
+            "gold": "Varies",
+            "dtp_cost": 0.0,
+            "description": "Selling art objects, gems, or jewelry obtained from adventures",
+            "notes": "Art objects, gems, and jewelry you sell fetch full price\n- The discount from the Crafter feat (2024) doesn't apply when buying Art Objects, Gems, and Jewelry"
+          }
+        ]
+      },
+      "Crafting": {
+        "notes": [
+          "Except where otherwise stated, crafting equipment requires proficiency in a corresponding tool, costs DTP equal to the item cost / 25, and costs gold equal to half the item cost."
+        ],
+        "activities": [
+          {
+            "row": 31,
+            "name": "Crafting Armor",
+            "gold": "Varies",
+            "dtp_cost": "Item cost / 25",
+            "description": "Crafting Armor. See link to Equipment sheet for details.",
+            "notes": null
+          },
+          {
+            "row": 32,
+            "name": "Crafting Weapon",
+            "gold": "Varies",
+            "dtp_cost": "Item cost / 25",
+            "description": "Crafting Weapons. See link to Equipment sheet for details.",
+            "notes": null
+          },
+          {
+            "row": 33,
+            "name": "Crafting Adventuring Gear",
+            "gold": "Varies",
+            "dtp_cost": "Item cost / 25",
+            "description": "Crafting Adventuring Gear. See link to Equipment sheet for details.",
+            "notes": null
+          },
+          {
+            "row": 34,
+            "name": "Crafting Poison",
+            "gold": "Varies",
+            "dtp_cost": "Item cost / 25",
+            "description": "Crafting Poisons. See link to Equipment sheet for details.",
+            "notes": null
+          },
+          {
+            "row": 35,
+            "name": "Crafting Miscellaneous",
+            "gold": "Varies",
+            "dtp_cost": "Varies",
+            "description": "Crafting other Miscellaneous items. See link to Equipment sheet for details.",
+            "notes": null
+          },
+          {
+            "row": 36,
+            "name": "Scribing Spell Scroll (Cantrip)",
+            "gold": "-15",
+            "dtp_cost": 1.0,
+            "description": "Scribing a cantrip spell scroll. See PHB 2024 for additional information.",
+            "notes": "- To scribe a spell scroll, as per the 2024 PHB, you must know or have the spell prepared, you must have proficiency with Arcana or Calligrapher's Supplies, you must be able to cast the spell, and you must provide the spell's material components. If the material components are normally consumed, they are consumed when the scroll is completed.\n- A scribed spell scroll uses your spell attack bonus, spell save DC, and spellcasting ability modifier.\n- A scribed cantrip spell scroll works as if the caster were your level.\n- A scribed level 2+ spell scroll can be an upcast version of a lower level spell you know or have prepared.\n- The maximum number of scribed spell scrolls you can have at a time is equal to your Proficiency Bonus.\n- You can't sell or trade any spell scrolls you scribe from this downtime activity."
+          },
+          {
+            "row": 37,
+            "name": "Scribing Spell Scroll (Level 1)",
+            "gold": "-25",
+            "dtp_cost": 2.0,
+            "description": "Scribing a level 1 spell scroll. See PHB 2024 for additional information.",
+            "notes": null
+          },
+          {
+            "row": 38,
+            "name": "Scribing Spell Scroll (Level 2)",
+            "gold": "-100",
+            "dtp_cost": 5.0,
+            "description": "Scribing a level 2 spell scroll. See PHB 2024 for additional information.",
+            "notes": null
+          },
+          {
+            "row": 39,
+            "name": "Scribing Spell Scroll (Level 3)",
+            "gold": "-150",
+            "dtp_cost": 8.0,
+            "description": "Scribing a level 3 spell scroll. See PHB 2024 for additional information.",
+            "notes": null
+          },
+          {
+            "row": 40,
+            "name": "Scribing Spell Scroll (Level 4)",
+            "gold": "-1000",
+            "dtp_cost": 14.0,
+            "description": "Scribing a level 4 spell scroll. See PHB 2024 for additional information.",
+            "notes": null
+          },
+          {
+            "row": 41,
+            "name": "Scribing Spell Scroll (Level 5)",
+            "gold": "-1500",
+            "dtp_cost": 30.0,
+            "description": "Scribing a level 5 spell scroll. See PHB 2024 for additional information.",
+            "notes": null
+          },
+          {
+            "row": 42,
+            "name": "Scribing Spell Scroll (Level 6)",
+            "gold": "-10000",
+            "dtp_cost": 46.0,
+            "description": "Scribing a level 6 spell scroll. See PHB 2024 for additional information.",
+            "notes": null
+          },
+          {
+            "row": 43,
+            "name": "Scribing Spell Scroll (Level 7)",
+            "gold": "-12500",
+            "dtp_cost": 57.0,
+            "description": "Scribing a level 7 spell scroll. See PHB 2024 for additional information.",
+            "notes": null
+          },
+          {
+            "row": 44,
+            "name": "Scribing Spell Scroll (Level 8)",
+            "gold": "-15000",
+            "dtp_cost": 68.0,
+            "description": "Scribing a level 8 spell scroll. See PHB 2024 for additional information.",
+            "notes": null
+          },
+          {
+            "row": 45,
+            "name": "Scribing Spell Scroll (Level 9)",
+            "gold": "-50000",
+            "dtp_cost": 129.0,
+            "description": "Scribing a level 9 spell scroll. See PHB 2024 for additional information.",
+            "notes": null
+          },
+          {
+            "row": 46,
+            "name": "Crafting T0 Consumable",
+            "gold": "-25*",
+            "dtp_cost": "3**",
+            "description": "Crafting a T0 Consumable in Rolled or Select Loot.",
+            "notes": "Crafting magic items is based on the rules of the 2024 Dungeon Master's Guide with the following changes:\n- Crafting a magic item of a certain type requires requires proficiency in the Arcana skill, proficiency in a corresponding tool, and an associated Special Facility of a Bastion depending on the type of item. The required tool proficiency is based on the Magic Item Tools table in chapter 7 of the 2024 Dungeon Master's Guide and is individually listed for each item in Loot. The required Special Facility is detailed in the Bastions sheet.\n- You can only craft magic items of your character's tier or lower.                                                                                                            \n- If a magic item can be used to cast spells, the spells must be among your Spells Prepared or Spells Known in order to craft the item, you must be able to cast the spell, and you must provide the material components for each spell. If the material components are normally consumed, they are consumed for each spell when the item is complete.                                                                                                                \n- If a magic item requires attunement, you must be able to attune to it in order to craft the item.\n- Another player's PC can provide assistance in crafting, with each participating PC expending half the base DTP cost (round up). A PC can only assist in this way if they are in the same location and are individually capable of crafting the item (in terms of Arcana and tool proficiency, spells known or prepared, and attunement).\n- A Base Cost and associated Crafting Cost is listed for craftable items: the Crafting Cost is what must be expended to craft the item. The Base Cost does not mean that the magic item can be purchased.                                                                                                   \n\n* Certain magic items can cost more than this value to craft: be sure to check an item's notes in Loot. Additionally, if a magic item incorporates an item with a purchase cost (such as magic armor), you must pay its full cost or craft that item in order to craft the associated magic item. For example magic plate armor would require paying an additional 1500 GP or an additional 750 GP and 60 DTP and craft the armor.            \n\n** Certain magic items can cost more DTP than this value to craft: be sure to check an item's notes in Loot. Additionally, if a magic item is crafted in ----- or a city (population >5000), an additional 3 DTP must be expended after any potential reductions. If it is crafted elsewhere, an additional 21 DTP must be expended instead after any potential reductions. Every magic item costs an additional 3 or 21 DTP to craft as a result."
+          },
+          {
+            "row": 47,
+            "name": "Crafting T0 Permanent",
+            "gold": "-50*",
+            "dtp_cost": "5**",
+            "description": "Crafting a T0 Permanent in Rolled or Select Loot.",
+            "notes": null
+          },
+          {
+            "row": 48,
+            "name": "Crafting T1 Consumable",
+            "gold": "-100*",
+            "dtp_cost": "5**",
+            "description": "Crafting a T1 Consumable in Rolled or Select Loot.",
+            "notes": null
+          },
+          {
+            "row": 49,
+            "name": "Crafting T1 Permanent",
+            "gold": "-200*",
+            "dtp_cost": "10**",
+            "description": "Crafting a T1 Permanent in Rolled or Select Loot.",
+            "notes": null
+          },
+          {
+            "row": 50,
+            "name": "Crafting T2 Consumable",
+            "gold": "\u2014",
+            "dtp_cost": "\u2014",
+            "description": "Not currently available.",
+            "notes": null
+          },
+          {
+            "row": 51,
+            "name": "Crafting T2 Permanent",
+            "gold": "\u2014",
+            "dtp_cost": "\u2014",
+            "description": "Not currently available.",
+            "notes": null
+          },
+          {
+            "row": 52,
+            "name": "Crafting T3 Consumable",
+            "gold": "\u2014",
+            "dtp_cost": "\u2014",
+            "description": "Not currently available.",
+            "notes": null
+          },
+          {
+            "row": 53,
+            "name": "Crafting T3 Permanent",
+            "gold": "\u2014",
+            "dtp_cost": "\u2014",
+            "description": "Not currently available.",
+            "notes": null
+          },
+          {
+            "row": 54,
+            "name": "Crafting T4 Consumable",
+            "gold": "\u2014",
+            "dtp_cost": "\u2014",
+            "description": "Not currently available.",
+            "notes": null
+          },
+          {
+            "row": 55,
+            "name": "Crafting T4 Permanent",
+            "gold": "\u2014",
+            "dtp_cost": "\u2014",
+            "description": "Not currently available.",
+            "notes": null
+          }
+        ]
+      },
+      "Research": {
+        "notes": [
+          "Research can only be conducted with respect to an adventure as overseen by a DM"
+        ],
+        "activities": [
+          {
+            "row": 60,
+            "name": "Research",
+            "gold": "-50, with the option for an additional 50 to 300 GP",
+            "dtp_cost": 5.0,
+            "description": "Researching a specific person, place, or thing as described in Xanathar's Guide to Everything.",
+            "notes": "- Research must be overseen by a DM and follows the rules in XGTE\n- A PC with access to Candlekeep or another particularly well-stocked library or place with knowledgeable sages has Advantage on the Intelligence check"
+          }
+        ]
+      },
+      "Reworking": {
+        "notes": [
+          "All reworks must be logged in #character-rework-log for approval by an Auditor",
+          "You must log all reworks in your Master Adventurer Log (MAL) in the session section",
+          "You can fully refund any rework prior to your first game played or DMPCed with that character. Log the refund in #character-rework-log for approval by an Auditor",
+          "You can partially refund (50% GP and DTP recouped) any rework before your 3rd game played or DMPCed with that character. Log the refund in #character-rework-log for approval by an Auditor"
+        ],
+        "activities": [
+          {
+            "row": 68,
+            "name": "2024 Update Rework",
+            "gold": 0.0,
+            "dtp_cost": 0.0,
+            "description": "Fully reworking a 2014 PC that existed from August 2025 and prior into a 2024 PC.",
+            "notes": "- This is a free full rework into a 2024 PC, including using the sheet to created an entirely new character. (The previous character becomes retired as an NPC but the same MAL sheet is used).\n- A character is defined as existing from August 2025 and prior if they are mentioned in at least one log in the #session-log, #downtime-logs, or #trade-logs from August 2025 and before"
+          },
+          {
+            "row": 69,
+            "name": "Any rework before level 6",
+            "gold": 0.0,
+            "dtp_cost": 0.0,
+            "description": "Reworking a PC before playing or DMPCing a game with them at level 6",
+            "notes": "You have unlimited free full reworks with PCs prior to their first level 6 game as a player or DMPC. The rework must still be logged and approved."
+          },
+          {
+            "row": 70,
+            "name": "T2 Checkpoint Rework",
+            "gold": "-820",
+            "dtp_cost": 150.0,
+            "description": "Fully reworking a T2 PC down to the beginning of level 3, 4, or 5",
+            "notes": "- This is a full rework, including using the sheet to create an entirely new character. (The previous character becomes retired as an NPC but the same MAL sheet is used)\n- A character NPCed in this way can be restored with another checkpoint rework provided that MAL sheet wasn't used as part of a consolidation \n- A character reworked into another character this way retains all equipment and magic items, but doesn't retain any supernatural rewards, sapient pets, or sapient mounts. Any Relics of Emergence or Hoard Magic Items they own revert to their initial state."
+          },
+          {
+            "row": 71,
+            "name": "T3 Checkpoint Rework",
+            "gold": "-2400",
+            "dtp_cost": 180.0,
+            "description": "Fully reworking a T3 PC down to the beginning of level 6, 7, 8, or 9",
+            "notes": null
+          },
+          {
+            "row": 72,
+            "name": "T4 Checkpoint Rework",
+            "gold": "-4250",
+            "dtp_cost": 260.0,
+            "description": "Fully reworking a T4 PC down to the beginning of level 11, 12, 13, 14, or 15",
+            "notes": null
+          },
+          {
+            "row": 73,
+            "name": "Ala Carte Rework (Level 6)",
+            "gold": "-160",
+            "dtp_cost": 30.0,
+            "description": "Single change rework for level 6 PC",
+            "notes": "The listed cost is per change:\n- Changing 1 class level, your race / species (including racial features and ASIs), background (including features,  proficiencies, and/or ASIs) and changing a feat or ASI  all cost 1 change each\n- Changing a language known or tool or skill proficiency independent of other changes costs 1 change\n- Changing a subclass costs 1 change per class level that adds a subclass feature. (You aren't charged for a subclass change added as a result of a class level change)\n- Changing starting ability scores, or changing the character to a different person, costs 2 changes\n- Changing from 2014 to 2024 costs 1 change. You must change your species, class, subclass, feats, and all other character options to their 2024 equivalent unless that option has not been reprinted. Your starting ASIs from your species are replaced with ASIs of your choice from your background, which can be customized as written in Appendix A of the TBD Guidelines.\n- Changing from 2024 to 2014 costs 1 change. You must change your species, class, subclass, feats, and all other character options to their 2014 equivalent. If there is no 2014 equivalent for a character option, you must choose an eligible 2014 option instead. This does not incur any additional costs."
+          },
+          {
+            "row": 74,
+            "name": "Ala Carte Rework (Level 7 - 8)",
+            "gold": "-270",
+            "dtp_cost": 30.0,
+            "description": "Single change rework for level 7 - 8 PC",
+            "notes": null
+          },
+          {
+            "row": 75,
+            "name": "Ala Carte Rework (Level 9 - 10)",
+            "gold": "-400",
+            "dtp_cost": 30.0,
+            "description": "Single change rework for level 9 - 10 PC",
+            "notes": null
+          },
+          {
+            "row": 76,
+            "name": "Ala Carte Rework (Level 11 - 12)",
+            "gold": "-630",
+            "dtp_cost": 40.0,
+            "description": "Single change rework for level 11 - 12 PC",
+            "notes": null
+          },
+          {
+            "row": 77,
+            "name": "Ala Carte Rework (Level 13 - 14)",
+            "gold": "-810",
+            "dtp_cost": 40.0,
+            "description": "Single change rework for level 13 - 14 PC",
+            "notes": null
+          },
+          {
+            "row": 78,
+            "name": "Ala Carte Rework (Level 15 - 16)",
+            "gold": "-1030",
+            "dtp_cost": 40.0,
+            "description": "Single change rework for level 15 - 16 PC",
+            "notes": null
+          },
+          {
+            "row": 79,
+            "name": "Ala Carte Rework (Level 17 - 18)",
+            "gold": "-1270",
+            "dtp_cost": 50.0,
+            "description": "Single change rework for level 17 - 18 PC",
+            "notes": null
+          },
+          {
+            "row": 80,
+            "name": "Ala Carte Rework (Level 19 - 20)",
+            "gold": "-1530",
+            "dtp_cost": 50.0,
+            "description": "Single change rework for level 19 - 20 PC",
+            "notes": null
+          },
+          {
+            "row": 81,
+            "name": "T2 Spell Change",
+            "gold": "-100 GP per spell level (minimum 100)",
+            "dtp_cost": "5 times spell level (minimum 5)",
+            "description": "Changing 1 spell known as a T2 PC.",
+            "notes": "The listed cost is per spell changed:\n- The gold and DTP cost are per the spell level of the new spell changed to\n- If you lose the ability to cast the Wish spell, you can use a spell change, with its listed costs, to swap it out for another spell your PC is eligible to know.\n- If you lose the ability to cast the Wish spell, you can't cast it again with that character or even other characters associated with that MAL sheet via a full checkpoint rework"
+          },
+          {
+            "row": 82,
+            "name": "T3 Spell Change",
+            "gold": "-200 GP per spell level (minimum 200)",
+            "dtp_cost": null,
+            "description": "Changing 1 spell known as a T3 PC.",
+            "notes": null
+          },
+          {
+            "row": 83,
+            "name": "T4 Spell Change",
+            "gold": "-300 GP per spell level (minimum 300)",
+            "dtp_cost": null,
+            "description": "Changing 1 spell known as a T4 PC.",
+            "notes": null
+          },
+          {
+            "row": 84,
+            "name": "T2 Character Consolidation",
+            "gold": "-960",
+            "dtp_cost": 180.0,
+            "description": "Consolidating a T2 PC with another T1 PC you have, retiring the T2 PC but using their MAL sheet for the T1 PC as a level 5 PC",
+            "notes": "- The higher level PC is retired as an NPC, but their character sheet is used as the new MAL sheet for the lower level PC\n- All items from the lower level PC's MAL sheet are traded to the higher level PC's MAL sheet\n- The consolidated PC doesn't benefit from any supernatural rewards the higher level PC had. Any Relics of Emergence or Hoard Magic Items in the consolidated MAL sheet revert to their initial state.\n- The lower level PC's MAL sheet is retired"
+          },
+          {
+            "row": 85,
+            "name": "T3 Character Consolidation",
+            "gold": "-2400",
+            "dtp_cost": 180.0,
+            "description": "Consolidating a T3 PC with another T2 PC you have, retiring the T3 PC but using their MAL sheet for the T2 PC as a level 11 PC",
+            "notes": null
+          },
+          {
+            "row": 86,
+            "name": "End of the Road Rework",
+            "gold": "Varies",
+            "dtp_cost": "Varies",
+            "description": "Using one of the other existing rework options to rework a PC that can no longer be played due to death or another reversible circumstance (such as lycanthropy or vampirism) from an adventure, as subject to the DM's discretion",
+            "notes": "To submit for an End of the Road rework, contact an Auditor and bear in mind the following:\n- An End of the Road rework requires the approval of the DM that ran the adventure. If the terminal event occurred in text RP or due to guild action (such as being expelled from the guild), the Lore team act as the DM.\n- Any gold, magic items, or treasure that may be lost from the MAL sheet are determined by the DM\n- The gold cost of reversing the consequence is added to the rework cost (for example, 25,000 GP for True Resurrection to cure vampirism)\n- After confirming with the DM and you, an Auditor will log the rework in #character-rework-log if it is approved"
+          },
+          {
+            "row": 87,
+            "name": "15% Story Rework Discount (3+ sessions)",
+            "gold": "15% Discount",
+            "dtp_cost": null,
+            "description": "Checkpoint rework for PC at listed discounted rate as a result of a series of adventures ran by a DM with minimum duration and session count as listed",
+            "notes": "- The player submits a rework as normal in #character-rework-log but should note Story Rework in the log\n- The DM submits a story rework discount in #character-rework-log, linking the relevant session logs and providing a brief narrative explanation of the change\n- Multiple DMs can collaborate for this purpose; each participating DM should be tagged in the log in #character-rework-log\n- This discounted checkpoint rework allows a PC to choose to remain the same level instead of having to drop in level and tier\n- This discounted checkpoint rework doesn't allow for reworking into another character\n- This discounted checkpoint rework can't be refunded\n- Only sessions that are 3+ hours count towards this discounted rework"
+          },
+          {
+            "row": 88,
+            "name": "30% Story Rework Discount (4+ sessions)",
+            "gold": "30% Discount",
+            "dtp_cost": null,
+            "description": null,
+            "notes": null
+          },
+          {
+            "row": 89,
+            "name": "50% Story Rework Discount (6+ sessions)",
+            "gold": "50% Discount",
+            "dtp_cost": null,
+            "description": null,
+            "notes": null
+          }
+        ]
+      },
+      "Spellcasting": {
+        "notes": [
+          "----- has a community spellbook to copy spells from and into located at ----- University (See #------universtity )"
+        ],
+        "activities": [
+          {
+            "row": 94,
+            "name": "Casting a Spell with a lasting effect",
+            "gold": "Varies",
+            "dtp_cost": "Level of the spell (minimum 1)",
+            "description": "Casting a spell to achieve a lasting effect, such as Simulacrum",
+            "notes": "- You must expend any costly material components for the spell that are consumed (if any) as the gold cost for this activity\n- If the effect has a finite duration of 1 day or longer, only in character days that pass as part of an adventure count against the duration as determined by the DM.\n- If another spell is cast as part of casting a spell with a lasting effect (such as the Contingency or Glyph of Warding spell), only DTP equal to the highest spell level used needs to be expended. For example, casting a level 6 Contingency spell with a level 4 Otiluke's Resilient Sphere spell in downtime costs only 6 DTP."
+          },
+          {
+            "row": 95,
+            "name": "Casting a Spell consecutively to make permanent",
+            "gold": "Varies",
+            "dtp_cost": "Number of days required + level of the spell",
+            "description": "Casting a spell that can be made permanent through casting on consecutive days, such as Teleportation Circle",
+            "notes": "You must expend any costly material components for the spell that are consumed (if any) as the gold cost for this activity."
+          },
+          {
+            "row": 96,
+            "name": "Copying a Spell",
+            "gold": "-50 GP (per spell level)",
+            "dtp_cost": "Special",
+            "description": "Copying a spell into your spellbook at a rate of 2 hours per spell level. You expend 1 DTP for every 8 hours that pass this way (round up, minimum 1 DTP), allowing you to copy multiple spells per DTP expended.",
+            "notes": "- While in -----, you can copy spells from the Community Spellbook. Refer to the listed Spells in this document.\n- You can copy a spell from another PC's spellbook, but both you and that PC must expend the DTP"
+          },
+          {
+            "row": 97,
+            "name": "Copying your Spellbook or a Prepared Spell",
+            "gold": "-10 GP (per spell level)",
+            "dtp_cost": "Special",
+            "description": "Copying a spell from your spellbook or a spell you have prepared into another book at a rate of 1 hour per spell level. You expend 1 DTP for every 8 hours that pass this way (round up, minimum 1 DTP), allowing you to copy multiple spells per DTP expended.",
+            "notes": "- While in -----, you can copy spells into the Community Spellbook. Refer to the listed Spells in this document."
+          }
+        ]
+      },
+      "Spellcasting Services": {
+        "notes": [
+          "These spellcasting services by NPCs can only be used in ----- or in other villages (level 0 - 2 spells) or other towns or cities (level 0 - 5 spells)"
+        ],
+        "activities": [
+          {
+            "row": 102,
+            "name": "Detect Magic",
+            "gold": "-10",
+            "dtp_cost": 1.0,
+            "description": "Casting Detect Magic to detect magic on creatures or objects",
+            "notes": null
+          },
+          {
+            "row": 103,
+            "name": "Comprehend Languages",
+            "gold": "-11",
+            "dtp_cost": 1.0,
+            "description": "Having up to 10 pages of text literally translated and transcribed with Comprehend Languages",
+            "notes": "- 1 page of text contains about 250 words\n- You receive the literal translation as a stack of up to 5 sheets of paper written on front and back"
+          },
+          {
+            "row": 104,
+            "name": "Identify",
+            "gold": "-20",
+            "dtp_cost": 1.0,
+            "description": "Having Identify cast on a creature or object",
+            "notes": null
+          },
+          {
+            "row": 105,
+            "name": "Illusory Script",
+            "gold": "-30",
+            "dtp_cost": 1.0,
+            "description": "Creating an illusory message for the next 10 days with Illusory Script",
+            "notes": null
+          },
+          {
+            "row": 106,
+            "name": "Ceremony",
+            "gold": "-60",
+            "dtp_cost": 1.0,
+            "description": "Performing one of the listed ceremonies of Ceremony",
+            "notes": "For Atonement, treat the NPC's Insight bonus as +5"
+          },
+          {
+            "row": 107,
+            "name": "Animal Messenger",
+            "gold": "-40",
+            "dtp_cost": 2.0,
+            "description": "Sending a message with Animal Messenger",
+            "notes": "In -----, the target must be either another guild member or ----- NPC"
+          },
+          {
+            "row": 108,
+            "name": "Gentle Repose",
+            "gold": "-40",
+            "dtp_cost": 2.0,
+            "description": "Protecting a corpse from decay with Gentle Repose",
+            "notes": null
+          },
+          {
+            "row": 109,
+            "name": "Lesser Restoration",
+            "gold": "-40",
+            "dtp_cost": 2.0,
+            "description": "Removing a condition from you or another creature with Lesser Restoration",
+            "notes": null
+          },
+          {
+            "row": 110,
+            "name": "Knock",
+            "gold": "-40",
+            "dtp_cost": 2.0,
+            "description": "Unlocking a container you possess with Knock",
+            "notes": null
+          },
+          {
+            "row": 111,
+            "name": "Magic Mouth",
+            "gold": "-60",
+            "dtp_cost": 2.0,
+            "description": "Imbuing an object you possess with Magic Mouth",
+            "notes": null
+          },
+          {
+            "row": 112,
+            "name": "Arcane Lock",
+            "gold": "-90",
+            "dtp_cost": 2.0,
+            "description": "Locking a container you possess or a door of a dwelling you own with Arcane Lock",
+            "notes": null
+          },
+          {
+            "row": 113,
+            "name": "Dispel Magic",
+            "gold": "-90",
+            "dtp_cost": 3.0,
+            "description": "Having Dispel Magic cast on a creature or object",
+            "notes": null
+          },
+          {
+            "row": 114,
+            "name": "Remove Curse",
+            "gold": "-90",
+            "dtp_cost": 3.0,
+            "description": "Having Remove Curse cast on a creature or object",
+            "notes": null
+          },
+          {
+            "row": 115,
+            "name": "Sending",
+            "gold": "-90",
+            "dtp_cost": 3.0,
+            "description": "Sending a message with Sending",
+            "notes": "In -----, the target must be either another guild member or ----- NPC"
+          },
+          {
+            "row": 116,
+            "name": "Speak with Dead",
+            "gold": "-90",
+            "dtp_cost": 3.0,
+            "description": "Interrogating the remains of a creature with Speak with Dead",
+            "notes": null
+          },
+          {
+            "row": 117,
+            "name": "Continual Flame (3rd-level)",
+            "gold": "-190",
+            "dtp_cost": 3.0,
+            "description": "Imbuing an object you possess with a Continual Flame",
+            "notes": null
+          },
+          {
+            "row": 118,
+            "name": "Divination",
+            "gold": "-210",
+            "dtp_cost": 4.0,
+            "description": "Predicting the future with Divination",
+            "notes": null
+          },
+          {
+            "row": 119,
+            "name": "Galder's Speedy Courier",
+            "gold": "-210",
+            "dtp_cost": 4.0,
+            "description": "Sending a package with Galder's Speedy Courier",
+            "notes": "In -----, the target must be either another guild member or ----- NPC"
+          },
+          {
+            "row": 120,
+            "name": "Teleportation Circle",
+            "gold": "-350",
+            "dtp_cost": 5.0,
+            "description": "Teleporting to a different location with Teleportation Circle",
+            "notes": "In -----, this can only target the following locations: Durlag's Tower, Lerwick Outpost, Merkin's Keep (near Baldur's Gate), Port Nyanzaru (in the Temple of Savras), Suzail, Silent Tower (Mompono Village, Chult), Tinkerton (near Waterdeep)"
+          },
+          {
+            "row": 121,
+            "name": "Greater Restoration",
+            "gold": "-450",
+            "dtp_cost": 5.0,
+            "description": "Removing a condition from you or another creature with Greater Restoration",
+            "notes": null
+          },
+          {
+            "row": 122,
+            "name": "Raise Dead",
+            "gold": "-1250",
+            "dtp_cost": 5.0,
+            "description": "Having yourself or another creature resurrected with Raise Dead",
+            "notes": "The PC being resurrected must expend an additional 4 DTP to recuperate from their ordeal."
+          },
+          {
+            "row": 123,
+            "name": "Other Spells of Level 5 or lower",
+            "gold": "Varies",
+            "dtp_cost": "Level of the spell (minimum 1)",
+            "description": "Having another spell of level 5 or lower cast at the DM's discretion",
+            "notes": "A DM can make other level 0 - 5 spells from NPCs available as part of an adventure. The normal gold cost equals (10 x (Spell Level)\u00b2) + (2 x Cost of Consumed Components) + (0.1 x Cost of Nonconsumed Components), with a minimum of 10 GP."
+          }
+        ]
+      },
+      "Trading": {
+        "notes": [
+          "Only PCs in the same location can trade with each other and any items you obtain via trading with another PC must be of your PC's tier or lower",
+          "You can't trade gold or equipment that can be sold for gold between your PCs, even by proxy",
+          "Items and equpment created by class features can't be traded or sold. Supernatural Rewards also cannot be traded or sold."
+        ],
+        "activities": [
+          {
+            "row": 130,
+            "name": "Trading Gold",
+            "gold": "Varies",
+            "dtp_cost": 0.0,
+            "description": "You give or receive an amount of gold to or from another player's character",
+            "notes": "- To avoid self trade of gold by proxy, the log must explain for what reason the gold or equipment was given e.g. given for the purpose of retraining.\n- After an item is traded between two PCs, those two PCs can't re-trade the item between them again until after 14 days have passed"
+          },
+          {
+            "row": 131,
+            "name": "Trading Equipment",
+            "gold": "Varies",
+            "dtp_cost": 0.0,
+            "description": "You give or receive equipment to or from another player's character",
+            "notes": null
+          },
+          {
+            "row": 132,
+            "name": "Trading Magic Items",
+            "gold": "Varies",
+            "dtp_cost": 0.0,
+            "description": "You give or receive a magic item to or from another player's character",
+            "notes": "- Any items you obtain via trading must be of your PC's tier or lower. The only exception are items obtained as part of a \"last will,\" but you still cannot use an item above your PC's tier whether during downtime or an adventure.\n- After an item is traded between two PCs, those two PCs can't re-trade the item between them again until after 14 days have passed"
+          },
+          {
+            "row": 133,
+            "name": "Self Trading",
+            "gold": 0.0,
+            "dtp_cost": 0.0,
+            "description": "You trade an item from one of your PCs to another one of your PCs",
+            "notes": "- You can't trade a magic item obtained on one of your PCs to another one of your PCs until after 30 days have passed since the date of the session or downtime log where you obtained the item. You can't retrade that item back between the PCs until after another 30 days have passed.\n- You can't trade gold or items that can be sold for gold between your PCs, even via proxy. A PR investigation will be opened if you and other parties are suspected of violating this rule."
+          },
+          {
+            "row": 134,
+            "name": "Loaning an Item",
+            "gold": "Varies",
+            "dtp_cost": 0.0,
+            "description": "You give or receive an item to or from another player's character as a loan for a minimum period of 14 or more days",
+            "notes": "The transaction must be logged as a loan and must last a minimum of 14 days."
+          }
+        ]
+      },
+      "Training": {
+        "notes": [
+          "Besides learning by yourself, another player's PC that knows a language or has a tool proficiency can teach your PC that language or tool proficiency. You expend the listed DTP cost but no gold and the teacher PC expends half the listed DTP.",
+          "Both your PC and the teacher PC must be in the same location, and the teacher must be another player's PC; the teacher cannot be one of your own PCs.",
+          "The teacher can choose at their discretion to charge you gold for teaching, using the rules for trading gold."
+        ],
+        "activities": [
+          {
+            "row": 141,
+            "name": "Learning a Standard Language",
+            "gold": "-150",
+            "dtp_cost": 60.0,
+            "description": "Learning a Standard language. See link to Languages sheet for details.",
+            "notes": "Can be learned in ----- or other towns or cities"
+          },
+          {
+            "row": 142,
+            "name": "Learning an Exotic / Rare Language",
+            "gold": "-250",
+            "dtp_cost": 100.0,
+            "description": "Learning an Exotic / Rare language. See link to Languages sheet for details.",
+            "notes": "- Celestial, Infernal, and Vedalken can be learned in ----- or other major cities\n- Other Exotic / Rare languages can't be learned in ----- but can be in Waterdeep or other major cities"
+          },
+          {
+            "row": 143,
+            "name": "Learning a Monster Language",
+            "gold": "-250",
+            "dtp_cost": 100.0,
+            "description": "Learning a Monster language. See link to Languages sheet for details.",
+            "notes": "- Can't be learned in downtime except as an adventure reward or as taught by another PC\n- Many monster languages are difficult to speak or understand owing to physiology or means of communication unique to that species of monster and many have no written form"
+          },
+          {
+            "row": 144,
+            "name": "Learning an Ethnic Language",
+            "gold": "-250",
+            "dtp_cost": 100.0,
+            "description": "Learning an Ethnic language. See link to Languages sheet for details.",
+            "notes": "Learning in downtime requires traveling to one of the associated listed regions"
+          },
+          {
+            "row": 145,
+            "name": "Gaining Tool or Vehicle Proficiency (except Disguise Kit, Forgery Kit, Gaming Set, Thieves' Tools)",
+            "gold": "-300",
+            "dtp_cost": 150.0,
+            "description": "Gaining proficiency with a tool or vehicle other than a Disguise Kit, Forgery Kit, Gaming Set, or Thieves' Tools",
+            "notes": "- For a tool proficiency, requires possessing the associated tool\n- For vehicle proficiency, the type of vehicle proficiences are vehicles (air), vehicles (land), vehicles (space), and vehicles (water)"
+          },
+          {
+            "row": 146,
+            "name": "Gaining a Gaming Set Proficiency",
+            "gold": "-120",
+            "dtp_cost": 60.0,
+            "description": "Gaining proficiency with a type of Gaming Set",
+            "notes": "Requires possessing the associated gaming set"
+          },
+          {
+            "row": 147,
+            "name": "Gaining Disguise Kit, Forgery Kit, or Thieves' Tools Proficiency",
+            "gold": "-500",
+            "dtp_cost": 100.0,
+            "description": "Gaining proficiency with a Disguise Kit, Forgery Kit, or Thieves' Tools",
+            "notes": "Requires possessing the associated tool"
+          },
+          {
+            "row": 148,
+            "name": "Gaining Expertise in a Tool or Vehicle",
+            "gold": "-250",
+            "dtp_cost": 50.0,
+            "description": "Gaining Expertise with a tool or vehicle you have proficiency in",
+            "notes": "Can't be acquired in ----- but can be in Waterdeep or other major cities"
+          }
+        ]
+      },
+      "Traveling": {
+        "notes": [
+          "Traveling costs 1 DTP and 1 GP per day of travel and uses the travel rules in the PHB (2014 p.181, 2024 p. 20) and DMG (2014 p. 242), with a maximum of 8 hours traveled per day.",
+          "Travel distances to major cities are in the TBD Guidelines. Contact a Lore Consultant in #downtime-planning to help determine distances and plan travel as necessary."
+        ],
+        "activities": [
+          {
+            "row": 154,
+            "name": "Traveling on land",
+            "gold": "-1 GP per day of travel",
+            "dtp_cost": "1 DTP per day of travel",
+            "description": "Traveling to a destination on land via walking, a mount, or a land vehicle",
+            "notes": "- Use the distance via roads to determine the number of days traveled\n- A PC on foot, riding a land vehicle, or on a typical mount covers 24 miles in a day\n- A PC on a Phantom Steed can cover 10 miles in 1 hour (or 80 miles in a day if the PC can keep the spell up the entire day)"
+          },
+          {
+            "row": 155,
+            "name": "Traveling by ship passage",
+            "gold": "-1 SP per mile traveled and either -1.5 GP (hammock) or -3 GP (private cabin) per day of travel",
+            "dtp_cost": "1 DTP per day of travel",
+            "description": "Traveling from one port to another via ship as a passenger, resting either in a hammock or private cabin",
+            "notes": "- Use the distance between ports to determine the number of days traveled\n- A typical sailing ship covers 48 miles in a day to travel along the sea\n- A keelboat covers 24 miles in a day to travel along a river"
+          },
+          {
+            "row": 156,
+            "name": "Traveling via flight",
+            "gold": "-1 GP per day of travel",
+            "dtp_cost": "1 DTP per day of travel",
+            "description": "Traveling to a destination via a flying mount or magical flight",
+            "notes": "- Use the straightline distance between locations to determine the number of days traveled\n- For flying via a flying mount or a magical item that grants sustained flight, you can travel up to 8 times the hourly rate of the source of flight in a day regardless of if it is a flying mount or magical item that grants sustained flight\n- A PC under the effects of Wind Walk can cover 240 miles in a day"
+          },
+          {
+            "row": 157,
+            "name": "Traveling via owned air, space, or water vehicle",
+            "gold": "-1 GP per day of travel and -2 GP per crew member per day of travel",
+            "dtp_cost": "1 DTP per day of travel",
+            "description": "Traveling to a destination via an air, space, or water vehicle you own",
+            "notes": "- A vehicle can cover 24 times its listed hourly speed in a day\n- A water vehicle can only travel from one port to another port\n- An air vehicle can be landed safely on the ground\n- A canoe, keelboat, or rowboat can only travel via a river\n- Certain space vehicles can only be landed safely on the ground or in water (such as a port), not both\n- Use the straightline distance between locations to determine the number of days traveled via an air or space vehicle\n- Travel from Toril to the Rock of Bral or vice versa via a space vehicle takes 1 DTP for 1 day of travel (2 DTP for 2 days for a round trip)\n- Vehicles with a listed amount of Crew require that number of skilled hirelings for each day of use, costing 2 GP per hireling (included in Gold Spent)\n- Other characters (up to the vehicle's Passenger limit) can also travel with you in this way, but also expend gold and DTP to travel, though they do not have to pay for Crew costs"
+          },
+          {
+            "row": 158,
+            "name": "Traveling via a teleportation spell",
+            "gold": "Varies",
+            "dtp_cost": "Level of the spell (minimum 1)",
+            "description": "Traveling to a destination via a teleportation spell",
+            "notes": "- The caster must expend any costly material components for the spell that are consumed (if any) as the gold cost for this activity\n- The caster and any other characters that are teleported must expend DTP equal to the level of the spell used\n- You can't use Teleport in downtime except to a permanent circle or a safe location you possess an associated / linked object for\n- All PCs know the following sigil sequences: Durlag's Tower, Lerwick Outpost, Merkin's Keep (near Baldur's Gate), Port Nyanzaru (in the Temple of Savras), Suzail, Silent Tower (Mompono Village, Chult), Tinkerton (near Waterdeep)"
+          },
+          {
+            "row": 159,
+            "name": "Traveling from ----- to the Rock of Bral or vice versa",
+            "gold": "-15 GP",
+            "dtp_cost": "1 DTP",
+            "description": "Traveling to the Rock of Bral from ----- (or vice versa) via spelljamming transport provided by New Nivix",
+            "notes": "A round trip costs 30 GP and 2 DTP"
+          },
+          {
+            "row": 160,
+            "name": "Travelling into or out of an extradimensional space",
+            "gold": "Varies",
+            "dtp_cost": "Varies",
+            "description": "Travelling into or out from an extradimensional space you have access to via a spell or magic item (e.g. Demiplane)",
+            "notes": "- For a spell, the caster must expend any costly material components for the spell that are consumed (if any) as the gold cost for this activity\n- If a spell is used to travel into or out from an extradimensional space you have access to, the DTP cost is equal to the level of spell\n- If a magic item is used to travel into or out from an extradimensional space you have access to without casting a spell (e.g. Rod of Security), the DTP cost is 1"
+          },
+          {
+            "row": 161,
+            "name": "Traveling beyond Faer\u00fbn",
+            "gold": "Varies",
+            "dtp_cost": "Level of the spell (minimum 1)",
+            "description": "Traveling via a teleportation spell to a known safe location beyond Faer\u00fbn.",
+            "notes": "- Locations beyond Faer\u00fbn include other continents on Toril, Wildspace, other planes of existence, and other worlds\n- Outside of teleporting to a known safe location (such as to a known teleportation circle), travel to locations beyond Faer\u00fbn can only occur as part of an adventure or as otherwise overseen by a DM\n- The caster must expend any costly material components for the spell that are consumed (if any) as the gold cost for this activity\n- The caster and any other characters that are teleported must expend DTP equal to the level of the spell used"
+          }
+        ]
+      },
+      "Work": {
+        "notes": [
+          "The roll and the amount of gold gained must be logged in #downtime-log"
+        ],
+        "activities": [
+          {
+            "row": 166,
+            "name": "Working a Trade with a Tool (Proficiency)",
+            "gold": "1d6 + your Proficiency Bonus",
+            "dtp_cost": 1.0,
+            "description": "Working a trade with a tool you have Proficiency with.",
+            "notes": "You can log multiple rolls at once and the total gold gained in #downtime-log"
+          },
+          {
+            "row": 167,
+            "name": "Working a Trade with a Tool (Expertise)",
+            "gold": "1d6 + twice your Proficiency Bonus",
+            "dtp_cost": 1.0,
+            "description": "Working a trade with a tool you have Expertise with.",
+            "notes": null
+          }
+        ]
+      },
+      "Miscellaneous": {
+        "notes": [],
+        "activities": [
+          {
+            "row": 171,
+            "name": "Divine Intervention (2014)",
+            "gold": 0.0,
+            "dtp_cost": 7.0,
+            "description": "Using 2014 Divine Intervention as a cleric to attempt to resurrect a PC or reverse a consequence that requires Divine Intervention to revert.",
+            "notes": "- A character can only benefit from one successful Divine Intervention (2014) in their career to be resurrected, replicating True Resurrection without any components. \n- Divine Intervention can't otherwise be used in downtime, except for purposes of resurrection as above or for other effects that require a Divine Intervention to revert."
+          },
+          {
+            "row": 172,
+            "name": "Gaining Renown",
+            "gold": 0.0,
+            "dtp_cost": "10 times current Renown Score",
+            "description": "Increasing your Renown Score with a group by 1 by undertaking minor missions and socializing with its members",
+            "notes": "- You must already have a Renown Score of 1+ with a group to increase your Renown Score in this way\n- You must be in the same location as members of a group in order to increase your Renown Score in this way\n- In ----- and most cities of Faer\u00fbn, members of the Cult of the Dragon, the Emerald Enclave, the Harpers, the Lords' Alliance, the Order of the Gauntlet, the Purple Dragon Knights, the Red Wizards, and the Zhentarim can be found"
+          },
+          {
+            "row": 173,
+            "name": "Repairing Damaged Armor and Weapons",
+            "gold": 0.0,
+            "dtp_cost": "DTP equal to the penalty",
+            "description": "Repairing armor and weapons with a cumulative penalty to their AC, attack rolls, or damage rolls, such as due to a Black Pudding or Rust Monster",
+            "notes": "- Repairing damaged armor or weapons in this way requires proficiency in Smith's Tools\n- Destroyed armor and weapons can't be repaired in this way."
+          },
+          {
+            "row": 174,
+            "name": "Vehicle Repair",
+            "gold": "-20 GP per Hit Point regained*",
+            "dtp_cost": "1 DTP per Hit Point regained*",
+            "description": "Repairing a Vehicle you own in downtime",
+            "notes": "A damaged vehicle can only be repaired in this way while berthed. \n\n* In ----- or in a port city (population >5000), a vehicle can regain 2 Hit Points per DTP expended at a cost of 10 GP per Hit Point regained"
+          },
+          {
+            "row": 175,
+            "name": "Shipboard Weapon Repair",
+            "gold": "-10 GP per Hit Point regained*",
+            "dtp_cost": "1 DTP per Hit Point regained*",
+            "description": "Repairing a Shipboard Weapon you own in downtime",
+            "notes": "A damaged shipboard weapon can only be repaired in this way while berthed. \n\n* In ----- or in a port city (population >5000), a vehicle can regain 2 Hit Points per DTP expended at a cost of 5 GP per Hit Point regained"
+          },
+          {
+            "row": 176,
+            "name": "Vehicle Repair (Mending)",
+            "gold": 0.0,
+            "dtp_cost": 1.0,
+            "description": "Repairing a Vehicle you own in downtime using the Mending spell",
+            "notes": "- You can cast Mending in this way up to 8 times per DTP expended. Each use of Mending in this way restores a number of Hit Points to a damaged vehicle equal to 1d8 + your spellcasting ability modifier.\n- During an adventure, a DM can permit the use of Mending in this way once per hour to repair a damaged vehicle. This does not expend DTP."
+          },
+          {
+            "row": 177,
+            "name": "Shipboard Weapon Repair (Mending)",
+            "gold": 0.0,
+            "dtp_cost": 1.0,
+            "description": "Repairing a Shipboard Weapon you own in downtime using the Mending spell",
+            "notes": "- You can cast Mending in this way up to 8 times per DTP expended. Each use of Mending in this way restores a number of Hit Points to a damaged shipboard weapon equal to 1d8 + your spellcasting ability modifier.\n- During an adventure, a DM can permit the use of Mending in this way once per hour to repair a damaged shipboard weapon. This does not expend DTP."
+          }
+        ]
+      }
+    }
+  },
+  "bastions": {
+    "sections": {
+      "Basic Facilities": {
+        "notes": [
+          "A Bastion can have any number of Basic Facilities."
+        ],
+        "items": [
+          {
+            "row": 15,
+            "name": "Bedroom",
+            "source": "DMG2024",
+            "size": "Cramped / Roomy / Vast (4/16/36 sq)",
+            "prerequisite": "\u2014",
+            "gp": "500 / 1000/ 3000",
+            "dtp": "20 / 45 / 125",
+            "order": "\u2014",
+            "description": "Comes with nonmagical furnishings and decor. See book for details."
+          },
+          {
+            "row": 16,
+            "name": "Courtyard",
+            "source": "DMG2024",
+            "size": "Cramped / Roomy / Vast (4/16/36 sq)",
+            "prerequisite": "\u2014",
+            "gp": "500 / 1000/ 3000",
+            "dtp": "20 / 45 / 125",
+            "order": "\u2014",
+            "description": "Comes with nonmagical furnishings and decor. See book for details."
+          },
+          {
+            "row": 17,
+            "name": "Dining Room",
+            "source": "DMG2024",
+            "size": "Cramped / Roomy / Vast (4/16/36 sq)",
+            "prerequisite": "\u2014",
+            "gp": "500 / 1000/ 3000",
+            "dtp": "20 / 45 / 125",
+            "order": "\u2014",
+            "description": "Comes with nonmagical furnishings and decor. See book for details."
+          },
+          {
+            "row": 18,
+            "name": "Kitchen",
+            "source": "DMG2024",
+            "size": "Cramped / Roomy / Vast (4/16/36 sq)",
+            "prerequisite": "\u2014",
+            "gp": "500 / 1000/ 3000",
+            "dtp": "20 / 45 / 125",
+            "order": "\u2014",
+            "description": "Comes with nonmagical furnishings and decor. See book for details."
+          },
+          {
+            "row": 19,
+            "name": "Parlor",
+            "source": "DMG2024",
+            "size": "Cramped / Roomy / Vast (4/16/36 sq)",
+            "prerequisite": "\u2014",
+            "gp": "500 / 1000/ 3000",
+            "dtp": "20 / 45 / 125",
+            "order": "\u2014",
+            "description": "Comes with nonmagical furnishings and decor. See book for details."
+          },
+          {
+            "row": 20,
+            "name": "Storage",
+            "source": "DMG2024",
+            "size": "Cramped / Roomy / Vast (4/16/36 sq)",
+            "prerequisite": "\u2014",
+            "gp": "500 / 1000/ 3000",
+            "dtp": "20 / 45 / 125",
+            "order": "\u2014",
+            "description": "Comes with nonmagical furnishings and decor. See book for details."
+          }
+        ]
+      },
+      "Special Facilities": {
+        "notes": [
+          "You must meet all prerequisites of a Special Facility in order to build and use it. The maximum number of Special Facilities your Bastion can have depends on your character's level (see Appendix B of the TBD Guidelines for details)",
+          "A Bastion can't have more than one Special Facility of the same kind unless the facility's description says otherwise.",
+          "A Special Facility can be replaced with another Special Facility by paying the gold and DTP to build the new facility, but the full gold cost of the old facility contributes to the new one",
+          "Only the Bastion's owner can benefit from its Special Facilities except where explicitly noted otherwise.",
+          "Certain Special Facilities have associated Craftable Magic Item Types to be used with the Crafting Magic Item downtime activity"
+        ],
+        "items": [
+          {
+            "row": 29,
+            "name": "Amethyst Dragon Den",
+            "source": "FRHOF",
+            "size": "Vast (36 sq)",
+            "prerequisite": "Level 5+, Member of the Purple Dragon Knights (Renown Score 3+)",
+            "gp": 3000.0,
+            "dtp": 125.0,
+            "order": "Empower",
+            "description": "Comes with 1 hireling. See book for description.",
+            "extra": {
+              "M": "For the Empower: Psionic Defenses order, only in character days that pass as part of an adventure count against the duration of effect as determined by the DM."
+            }
+          },
+          {
+            "row": 30,
+            "name": "Arcane Study",
+            "source": "DMG2024",
+            "size": "Roomy (16 sq)",
+            "prerequisite": "Level 5+, ability to use an Arcane Focus or tool as a Spellcasting Focus",
+            "gp": 1000.0,
+            "dtp": 45.0,
+            "order": "Craft",
+            "description": "Comes with 1 hireling. See book for description.\n\nCraftable Magic Items Types:*\n- Rod\n- Staff\n- Wand\n- Wondrous item that requires attunement by an Artificer, Bard, Sorcerer, Warlock, or Wizard\n\n* Can't be used for crafting items that require attunement by only a Cleric, Druid, Paladin, or Ranger",
+            "extra": {
+              "M": "- For the Craft: Arcane Focus or Book order, crafting the item requires no additional DTP beyond taking the Bastion Turn and requires no additional GP beyond what is written.\n- For the Craft: Magic Item order (must be level 9+), the crafted magic item can be any T0 or T1 item in the Rolled or Select Loot categories of the listed Craftable Magic Item Types (ignore rarity and theme). This facility's hireling can craft the item even if you don't have the associated tool proficiency, though you must still expend gold and DTP as normal. If the item allows one to cast any spells or has specific attunement restrictions, you must craft the item yourself."
+            }
+          },
+          {
+            "row": 31,
+            "name": "Armory",
+            "source": "DMG2024",
+            "size": "Roomy (16 sq)",
+            "prerequisite": "Level 5+",
+            "gp": 1000.0,
+            "dtp": 45.0,
+            "order": "Trade",
+            "description": "Comes with 1 hireling. See book for description."
+          },
+          {
+            "row": 32,
+            "name": "Barrack",
+            "source": "DMG2024",
+            "size": "Roomy (16 sq)",
+            "prerequisite": "Level 5+",
+            "gp": 1000.0,
+            "dtp": 45.0,
+            "order": "Recruit",
+            "description": "Comes with 1 hireling. A Bastion can have more than one Barrack. See book for description.",
+            "extra": {
+              "M": "Can be expanded to Vast as written by expending 2000 GP and 80 DTP"
+            }
+          },
+          {
+            "row": 33,
+            "name": "Garden",
+            "source": "DMG2024",
+            "size": "Roomy (16 sq)",
+            "prerequisite": "Level 5+",
+            "gp": 1000.0,
+            "dtp": 45.0,
+            "order": "Harvest",
+            "description": "Comes with 1 hireling. A Bastion can have more than one Garden. See book for description.\n\nCraftable Magic Items Types:\n- Potion",
+            "extra": {
+              "M": "- For the Harvest: Garden Growth order, collecting the items requires no additional DTP beyond taking the Bastion Turn and costs no money.\n- Changing the Garden's type costs 21 DTP\n- Can be expanded to Vast as written by expending 2000 GP and 80 DTP. A Vast Garden gains 1 extra hireling."
+            }
+          },
+          {
+            "row": 34,
+            "name": "Harper Hideout",
+            "source": "FRHOF",
+            "size": "Roomy (16 sq)",
+            "prerequisite": "Level 5+, Member of the Harpers (Renown 3+)",
+            "gp": 1000.0,
+            "dtp": 45.0,
+            "order": "Empower",
+            "description": "Comes with 1 hireling. See book for description.",
+            "extra": {
+              "M": "- The Harper Hideout's location can be changed as written by expending 1000 GP and 45 DTP\n- For the Empower: Harper Training order, the die rolled is a d6.\n- If the Empower: Harper Training order is issued in downtime, only you and other PCs of the same shared set of Bastions can benefit from its effect. The other PCs must expend 7 DTP to gain this benefit.\n- If the Empower: Harper Training order is issued during an adventure, you and any PC in the facility can benefit from its effect."
+            }
+          },
+          {
+            "row": 35,
+            "name": "Library",
+            "source": "DMG2024",
+            "size": "Roomy (16 sq)",
+            "prerequisite": "Level 5+",
+            "gp": 1000.0,
+            "dtp": 45.0,
+            "order": "Research",
+            "description": "Comes with 1 hireling. See book for description.\n\nCraftable Magic Items Types:\n- Scroll",
+            "extra": {
+              "M": "The information obtained from the Research order must be overseen by a DM."
+            }
+          },
+          {
+            "row": 36,
+            "name": "Red Wizard Necropolis",
+            "source": "FRHOF",
+            "size": "Roomy (16 sq)",
+            "prerequisite": "Level 5+, ability to use a Spellcasting Focus, Member of the Red Wizards (Renown 3+)",
+            "gp": 1000.0,
+            "dtp": 45.0,
+            "order": "Recruit",
+            "description": "Comes with 1 hireling. See book for description."
+          },
+          {
+            "row": 37,
+            "name": "Sanctuary",
+            "source": "DMG2024",
+            "size": "Roomy (16 sq)",
+            "prerequisite": "Level 5+, ability to use a Holy Symbol or Druidic Focus as a Spellcasting Focus",
+            "gp": 1000.0,
+            "dtp": 45.0,
+            "order": "Craft",
+            "description": "Comes with 1 hireling. See book for description.\n\nCraftable Magic Items Types:*\n- Rod\n- Staff\n- Wand\n- Wondrous item that requires attunement by a Cleric, Druid, Paladin, or Ranger\n\n* Can't be used for crafting items that require attunement by only an Artificer, Bard, Sorcerer, Warlock, or Wizard",
+            "extra": {
+              "M": "- If you take a Bastion Turn while physically present at your Bastion, you gain the benefits of Sanctuary Charm without needing to expend any additional DTP.  You must otherwise expend 1 DTP to gain the benefits of Sanctuary Charm in downtime while present at the Bastion. You don't need to expend this DTP during an adventure.\n- Only in character days that pass as part of an adventure count against the duration of Sanctuary Charm as determined by the DM.\n- For the Craft: Sacred Focus order, crafting the item requires no additional DTP beyond taking the Bastion Turn and costs no money."
+            }
+          },
+          {
+            "row": 38,
+            "name": "Smithy",
+            "source": "DMG2024",
+            "size": "Roomy (16 sq)",
+            "prerequisite": "Level 5+",
+            "gp": 1000.0,
+            "dtp": 45.0,
+            "order": "Craft",
+            "description": "Comes with 2 hirelings. See book for description.\n\nCraftable Magic Items Types:           \n- Ammunition\n- Armor\n- Weapon",
+            "extra": {
+              "M": "- For the Craft: Smith's Tools order, the crafted item can be any item in Equipment that has Smith's Tools as its requirement. The facility's hirelings can craft the item even if you don't have the associated tool proficiency, though you must still expend gold and DTP as normal.\n- For the Craft: Magic Item order (must be level 9+), the crafted magic item can be any T0 or T1 item in the Rolled or Select Loot categories of the listed Craftable Magic Item Types (ignore rarity and theme). This facility's hireling can craft the item even if you don't have the associated tool proficiency, though you must still expend gold and DTP as normal. If the item allows one to cast any spells or has specific attunement restrictions, you must craft the item yourself."
+            }
+          },
+          {
+            "row": 39,
+            "name": "Storehouse",
+            "source": "DMG2024",
+            "size": "Roomy (16 sq)",
+            "prerequisite": "Level 5+",
+            "gp": 1000.0,
+            "dtp": 45.0,
+            "order": "Trade",
+            "description": "Comes with 1 hireling. See book for description.",
+            "extra": {
+              "M": "- For the Trade: Goods order, any nonmagical goods acquired must be in the Equipment sheet.\n- For the Trade: Goods order, any nonmagical goods sold from the Storehouse fetch prices as per the Buying and Selling downtime activity (ignore percentage markup)"
+            }
+          },
+          {
+            "row": 40,
+            "name": "Zhentarim Travel Station",
+            "source": "FRHOF",
+            "size": "Vast (36 sq)",
+            "prerequisite": "Level 5+, Member of the Zhentarim (Renown Score 3+)",
+            "gp": 3000.0,
+            "dtp": 125.0,
+            "order": "Research",
+            "description": "Comes with 2 hirelings. See book for description.",
+            "extra": {
+              "M": "- The benefit of Long-Distance Travel Speed can only be used during an adventure.\n- The Research: Reconnaissance order can only be used during an adventure."
+            }
+          },
+          {
+            "row": 41,
+            "name": "Workshop",
+            "source": "DMG2024",
+            "size": "Roomy (16 sq)",
+            "prerequisite": "Level 5+",
+            "gp": 1000.0,
+            "dtp": 45.0,
+            "order": "Craft",
+            "description": "Comes with 3 hirelings. See book for description.\n\nCraftable Magic Item Types:\n- Ring\n- Wondrous item that doesn't require attunement by only a Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, or Wizard",
+            "extra": {
+              "M": "- For the Craft: Adventuring Gear order, the crafted item can be any item in Equipment that has one of the chosen tool proficiencies as its requirement. The facility's hirelings can craft the item even if you don't have the associated tool proficiency, though you must still expend gold and DTP as normal.\n- For the Craft: Magic Item order (must be level 9+), the crafted magic item can be any T0 or T1 item in the Rolled or Select Loot categories of the listed Craftable Magic Item Types (ignore rarity and theme). This facility's hireling can craft the item even if you don't have the associated tool proficiency (provided the facility has one of the tools you selected), though you must still expend gold and DTP as normal. If the item allows one to cast any spells or has specific attunement restrictions, you must craft the item yourself.\n- Can be expanded to Vast as written by expending 2000 GP and 80 DTP and also gaining 2 additional hirelings and 3 additional listed Aristan's Tools as listed.\n- If you take a Bastion Turn while physically present at your Bastion, you gain Heroic Inspiration without needing to expend any additional DTP.  You must otherwise expend 1 DTP to gain Heroic Inspiration in downtime while present at the Bastion. You don't need to expend this DTP during an adventure."
+            }
+          },
+          {
+            "row": 42,
+            "name": "Emerald Enclave Grove",
+            "source": "FRHOF",
+            "size": "Vast (36 sq)",
+            "prerequisite": "Level 9+, Member of the Emerald Enclave (Renown Score 3+)",
+            "gp": 3000.0,
+            "dtp": 125.0,
+            "order": "Recruit",
+            "description": "Comes with 2 hirelings. See book for description.",
+            "extra": {
+              "M": "For the Recruit: Creature of Nature order, the die rolled is a d6."
+            }
+          },
+          {
+            "row": 43,
+            "name": "Gaming Hall",
+            "source": "DMG2024",
+            "size": "Vast (36 sq)",
+            "prerequisite": "Level 9+",
+            "gp": 3000.0,
+            "dtp": 125.0,
+            "order": "Trade",
+            "description": "Comes with 4 hirelings. See book for description.",
+            "extra": {
+              "M": "For the Trade: Gambling Hall order, roll and log the result in #downtime-logs under the associated log for taking a Bastion Turn."
+            }
+          },
+          {
+            "row": 44,
+            "name": "Greenhouse",
+            "source": "DMG2024",
+            "size": "Roomy (16 sq)",
+            "prerequisite": "Level 9+",
+            "gp": 1000.0,
+            "dtp": 45.0,
+            "order": "Harvest",
+            "description": "Comes with 1 hireling. See book for description.\n\nCraftable Magic Items Types:\n- Potion",
+            "extra": {
+              "M": "- If you take a Bastion Turn while physically present at your Bastion, you gain the benefits of Fruit of Restoration without needing to expend any additional DTP.  You and the recipient of the fruit must otherwise expend 1 DTP each to gain the benefits of Fruit Restoration (for all 3 fruits) in downtime while present at the Bastion. You don't need to expend this DTP during an adventure.\n- For the Harvest: Healing Herbs or Poison order, collecting the items requires no additional DTP beyond taking the Bastion Turn and costs no money."
+            }
+          },
+          {
+            "row": 45,
+            "name": "Laboratory",
+            "source": "DMG2024",
+            "size": "Roomy (16 sq)",
+            "prerequisite": "Level 9+",
+            "gp": 1000.0,
+            "dtp": 45.0,
+            "order": "Craft",
+            "description": "Comes with 1 hireling. See book for description.\n\nCraftable Magic Items Types:\n- Potion",
+            "extra": {
+              "M": "- For the Craft: Alchemist's Supplies order, the crafted item can be any item in Equipment that has Alchemist's Supplies as its requirement. The facility's hirelings can craft the item even if you don't have the associated tool proficiency, though you must still expend gold and DTP as normal.\n- For the Craft: Poison order, collecting the poison requires no additional DTP beyond taking the Bastion Turn and costs GP equal to half the listed poison's price."
+            }
+          },
+          {
+            "row": 46,
+            "name": "Lords' Alliance Noble Residence",
+            "source": "FRHOF",
+            "size": "Vast (36 sq)",
+            "prerequisite": "Level 9+, Member of the Lords' Alliance (Renown Score 3+)",
+            "gp": 3000.0,
+            "dtp": 125.0,
+            "order": "Recruit",
+            "description": "Comes with 1 hireling. See book for description.",
+            "extra": {
+              "M": "- For the Recruit: Visiting Noble order, the die rolled is a d6.\n- If you take a Bastion Turn while physically present at your Bastion, you gain Heroic Inspiration without needing to expend any additional DTP.  You must otherwise expend 1 DTP to gain Heroic Inspiration in downtime while present at the Bastion. You don't need to expend this DTP during an adventure."
+            }
+          },
+          {
+            "row": 47,
+            "name": "Sacristy",
+            "source": "DMG2024",
+            "size": "Roomy (16 sq)",
+            "prerequisite": "Level 9+, ability to use a Holy Symbol or Druidic Focus as a Spellcasting Focus",
+            "gp": 1000.0,
+            "dtp": 45.0,
+            "order": "Craft",
+            "description": "Comes with 1 hireling. See book for description.\n\nCraftable Magic Items Types:*\n- Rod\n- Staff\n- Wand\n- Wondrous item that requires attunement by a Cleric, Druid, Paladin, or Ranger\n\n* Can't be used for crafting items that require attunement by only an Artificer, Bard, Sorcerer, Warlock, or Wizard",
+            "extra": {
+              "M": "- For the Craft: Holy Water order,  crafting the item requires no additional DTP beyond taking the Bastion Turn and requires no additional GP beyond what is written. You cannot sell or trade Holy Water crafted in this way.\n- For the Craft: Magic Item order, the crafted magic item can be any T0 or T1 item in the Rolled or Select Loot categories of the listed Craftable Magic Item Types (ignore rarity and theme). This facility's hireling can craft the item even if you don't have the associated tool proficiency, though you must still expend gold and DTP as normal. If the item allows one to cast any spells or has specific attunement restrictions, you must craft the item yourself.\n- Spell Refreshment can only be used during an adventure and costs no DTP."
+            }
+          },
+          {
+            "row": 48,
+            "name": "Scriptorium",
+            "source": "DMG2024",
+            "size": "Roomy (16 sq)",
+            "prerequisite": "Level 9+",
+            "gp": 1000.0,
+            "dtp": 45.0,
+            "order": "Craft",
+            "description": "Comes with 1 hireling. See book for description.\n\nCraftable Magic Items Types:\n- Scroll",
+            "extra": {
+              "M": "- For the Craft: Book Replica order, replicating a book requires no additional DTP beyond taking the Bastion Turn and requires a blank Book as well as a Book to be replicated.\n- For the Craft: Spell Scroll order, you must expend gold and DTP as listed for Scribing a Spell Scroll of the associated level to be made. The scroll created uses the statistics of a spell scroll as described in the Dungeon Master's Guide and can be traded as normal. \n- For the Craft: Paperwork order, creating the copies requires no additional DTP beyond taking the Bastion Turn and requires no additional GP beyond what is written."
+            }
+          },
+          {
+            "row": 49,
+            "name": "Stable",
+            "source": "DMG2024",
+            "size": "Roomy (16 sq)",
+            "prerequisite": "Level 9+",
+            "gp": 1000.0,
+            "dtp": 45.0,
+            "order": "Trade",
+            "description": "Comes with 1 hireling. A Bastion can have more than one Stable. See book for description.",
+            "extra": {
+              "M": "- For the Trade: Animals order, any mounts acquired must be in the Equipment sheet. The available mounts depends on the Bastion's location.\n- For the Trade: Animals order, any mounts sold from the Storehouse fetch prices as per the Buying and Selling downtime activity (ignore percentage markup). You cannot sell sapient mounts.\n- Can be expanded to Vast as written by expending 2000 GP and 80 DTP"
+            }
+          },
+          {
+            "row": 50,
+            "name": "Teleportation Circle",
+            "source": "DMG2024",
+            "size": "Roomy (16 sq)",
+            "prerequisite": "Level 9+",
+            "gp": 1000.0,
+            "dtp": 45.0,
+            "order": "Recruit",
+            "description": "Comes with 1 hireling. See book for description.",
+            "extra": {
+              "M": "- The inscribed Teleportation Circle cannot be dispelled.\n- For the Recruit: Spellcaster order, the die rolled is a d6. Additionally, the invited spellcaster has a spellcasting ability modifier of +3 and a spell save DC of 14 for purposes of spells they cast. When you reach level 17, the invited spellcaster has a spellcasting ability modifier of +5 and a spell save DC of 17 for purposes of spells they cast.\n- A spell cast by the invited spellcaster requires no additional DTP beyond taking the Bastion Turn, though you must still pay for any costly components. The invited spellcaster cannot cast the Clone or Simulacrum spell on your behalf"
+            }
+          },
+          {
+            "row": 51,
+            "name": "Theater",
+            "source": "DMG2024",
+            "size": "Vast (36 sq)",
+            "prerequisite": "Level 9+",
+            "gp": 3000.0,
+            "dtp": 125.0,
+            "order": "Empower",
+            "description": "Comes with 4 hirelings. See book for description.",
+            "extra": {
+              "M": "The Empower: Theatrical Event order can only be used during an adventure."
+            }
+          },
+          {
+            "row": 52,
+            "name": "Order of the Gauntlet Tournament Field",
+            "source": "FRHOF",
+            "size": "Vast (36 sq)",
+            "prerequisite": "Level 9+, Member of the Order of the Gauntlet (Renown Score 3+)",
+            "gp": 3000.0,
+            "dtp": 125.0,
+            "order": "Empower",
+            "description": "Comes with 1 hireling. See book for description.",
+            "extra": {
+              "M": "For the Empower: Hold Tournament order, you must expend an additional 7 DTP beyond the DTP used for the Bastion Turn to host the tournament (in addition to expending 2000 GP). This additional DTP must be expended even if this order is issued during an adventure and this order is considered to provide a lasting benefit (requiring expending 7 DTP to take the Bastion Turn even during an adventure)."
+            }
+          },
+          {
+            "row": 53,
+            "name": "Training Area",
+            "source": "DMG2024",
+            "size": "Vast (36 sq)",
+            "prerequisite": "Level 9+",
+            "gp": 3000.0,
+            "dtp": 125.0,
+            "order": "Empower",
+            "description": "Comes with 4 hirelings. A Bastion can have more than one Training Area. See book for description.",
+            "extra": {
+              "M": "- For the Empower: Training order, only in character days that pass as part of an adventure count against the duration of effect as determined by the DM.\n- If the Empower: Training order is issued in downtime, only you and other PCs of the same shared set of Bastions can benefit from its effect. The other PCs must expend 7 DTP to gain this benefit.\n- If the Empower: Training order is issued during an adventure, you and any PC in the facility can benefit from its effect."
+            }
+          },
+          {
+            "row": 54,
+            "name": "Trophy Room",
+            "source": "DMG2024",
+            "size": "Roomy (16 sq)",
+            "prerequisite": "Level 9+",
+            "gp": 1000.0,
+            "dtp": 45.0,
+            "order": "Research",
+            "description": "Comes with 1 hireling. See book for description.",
+            "extra": {
+              "M": "- The information obtained from the Research: Lore order must be overseen by a DM.\n- For the Research: Trinket Trophy order, the die rolled is a d6. The obtained magic item is a random T0 item (ignore the table): roll for it in #treasure-log (/hgenloot 1 [your PC's level] force_t0 True) and link to the result in the downtime log."
+            }
+          },
+          {
+            "row": 55,
+            "name": "Archive",
+            "source": "DMG2024",
+            "size": "Roomy (16 sq)",
+            "prerequisite": "Level 13+",
+            "gp": 3000.0,
+            "dtp": 85.0,
+            "order": "Research",
+            "description": "Comes with 1 hireling. See book for description.",
+            "extra": {
+              "M": "- The information obtained from the Research: Helpful Lore order must be overseen by a DM.\n-  Can be expanded to Vast as written by expending 6000 GP and 160 DTP"
+            }
+          },
+          {
+            "row": 56,
+            "name": "Cult of the Dragon Archive",
+            "source": "FRHOF",
+            "size": "Roomy (16 sq)",
+            "prerequisite": "Level 13+, Member of the Cult of the Dragon (Renown Score 3+)",
+            "gp": 3000.0,
+            "dtp": 85.0,
+            "order": "Research",
+            "description": "Comes with 1 hireling. See book for description.",
+            "extra": {
+              "M": "- The information obtained from the Research: Helpful Lore order must be overseen by a DM.\n-  Can be expanded to Vast as written by expending 6000 GP and 160 DTP"
+            }
+          },
+          {
+            "row": 57,
+            "name": "Meditation Chamber",
+            "source": "DMG2024",
+            "size": "Cramped (4 sq)",
+            "prerequisite": "Level 13+",
+            "gp": 1500.0,
+            "dtp": 40.0,
+            "order": "Empower",
+            "description": "Comes with 1 hireling. See book for description.",
+            "extra": {
+              "M": "- The Empower: Inner Peace order can only be issued during an adventure or as overseen by a DM.\n- If you take a Bastion Turn while physically present at your Bastion, you gain the benefits of Fortify Self without needing to expend any additional DTP.  You must otherwise expend 7 DTP to gain the benefits of Fortify Self in downtime while present at the Bastion. You don't need to expend this DTP during an adventure. \n- Only in character days that pass as part of an adventure count against the duration of Fortify Self as determined by the DM."
+            }
+          },
+          {
+            "row": 58,
+            "name": "Menagerie",
+            "source": "DMG2024",
+            "size": "Vast (36 sq)",
+            "prerequisite": "Level 13+",
+            "gp": 9000.0,
+            "dtp": 245.0,
+            "order": "Recruit",
+            "description": "Comes with 2 hirelings. See book for description.",
+            "extra": {
+              "M": "For the Recruit: Creature order, you can recruit other Beasts and Monstrosities besides the listed options with costs as according to the second table. The recruited creature can be any non-sapient Beast or Monstrosity of your choice that is CR 3 or less in Fair Game in the Monsters sheet. (If a monster can speak one or more languages, has telepathy, or has an alignment other than unaligned, it is considered to be sapient) A Beast or Monstrosity that is CR 2 or higher and that has a Fly Speed is considered to be T3 for purposes of acquisition and trade."
+            }
+          },
+          {
+            "row": 59,
+            "name": "Observatory",
+            "source": "DMG2024",
+            "size": "Roomy (16 sq)",
+            "prerequisite": "Level 13+, ability to use a Spellcasting Focus",
+            "gp": 3000.0,
+            "dtp": 85.0,
+            "order": "Empower",
+            "description": "Comes with 1 hireling. See book for description.",
+            "extra": {
+              "M": "- If you take a Bastion Turn while physically present at your Bastion, you gain the benefits of Observatory Charm without needing to expend any additional DTP.  You must otherwise expend 1 DTP to gain the benefits of Observatory Charm in downtime while present at the Bastion. You don't need to expend this DTP during an adventure.\n- Only in character days that pass as part of an adventure count against the duration of Observatory Charm as determined by the DM.\n- For the Empower: Eldritch Discovery order, the die rolled is a d6."
+            }
+          },
+          {
+            "row": 60,
+            "name": "Pub",
+            "source": "DMG2024",
+            "size": "Roomy (16 sq)",
+            "prerequisite": "Level 13+",
+            "gp": 3000.0,
+            "dtp": 85.0,
+            "order": "Research",
+            "description": "Comes with 1 hireling. See book for description.",
+            "extra": {
+              "M": "- The information obtained from the Research: Information Gathering order must be overseen by a DM.\n- If you take a Bastion Turn while physically present at your Bastion, you gain the benefits of Pub Special without needing to expend any additional DTP.  You must otherwise expend 1 DTP to gain the benefits of Pub Special in downtime while present at the Bastion. You don't need to expend this DTP during an adventure.\n- Only in character hours that pass as part of an adventure count against the duration of Pub Special as determined by the DM.\n-  Only you and other PCs of the same shared set of Bastions can benefit from Pub Special in downtime. Any creature can gain its benefit during an adventure.\n-  Can be expanded to Vast as written by expending 6000 GP and 160 DTP. A Vast pub gains 3 extra hirelings and can have up to 2 magical beverages on tap at a time."
+            }
+          },
+          {
+            "row": 61,
+            "name": "Reliquary",
+            "source": "DMG2024",
+            "size": "Cramped (4 sq)",
+            "prerequisite": "Level 13+, ability to use a Holy Symbol or Druidic Focus as a Spellcasting Focus",
+            "gp": 1500.0,
+            "dtp": 40.0,
+            "order": "Harvest",
+            "description": "Comes with 1 hireling. See book for description.",
+            "extra": {
+              "M": "- If you take a Bastion Turn while physically present at your Bastion, you gain the benefits of Reliquary Charm without needing to expend any additional DTP.  You must otherwise expend 1 DTP to gain the benefits of Reliquary Charm in downtime while present at the Bastion. You don't need to expend this DTP during an adventure.\n- Only in character days that pass as part of an adventure count against the duration of Reliquary Charm as determined by the DM.\n- For the Harvest: Talisman order, harvesting the item requires no additional DTP beyond taking the Bastion Turn and costs no money."
+            }
+          },
+          {
+            "row": 62,
+            "name": "Demiplane",
+            "source": "DMG2024",
+            "size": "Vast (36 sq)",
+            "prerequisite": "Level 17+, ability to use an Arcane Focus or tool as a Spellcasting Focus",
+            "gp": 15000.0,
+            "dtp": 245.0,
+            "order": "Empower",
+            "description": "Comes with 1 hireling. See book for description.",
+            "extra": {
+              "M": "- The Empower: Arcane Resilience order can only be issued during an adventure.\n- You must expend 1 DTP to use Fabrication. This DTP must be expended even if used during an adventure.\n- The object created via Fabrication must be present in the Equipment sheet in addition to the listed requirements."
+            }
+          },
+          {
+            "row": 63,
+            "name": "Guildhall",
+            "source": "DMG2024",
+            "size": "Vast (36 sq)",
+            "prerequisite": "Level 17+, Expertise in a skill",
+            "gp": 15000.0,
+            "dtp": 245.0,
+            "order": "Recruit",
+            "description": "Comes with 1 hireling. See book for description.",
+            "extra": {
+              "M": "- For the Adventurers' Guild assignment, the Beast can be any Beast in Fair Game that is CR 2 or less.\n- For the Masons' Guild assignment, you can add up to 7 5-foot squares of Defensive Walls as part of the Bastion Turn with no additional DTP cost and costing no money. Only other PCs of the same shared set of Bastions can receive Defensive Walls in this way during downtime.\n- For the Shipbuilders' Guild assignment, any air, space, or water vehicle listed in the Equipment sheet can be made. You pay half the cost of the vehicle and the construction takes an amount of DTP equal to the vehicle's full cost divided by 1000 (round up, minimum 1). Additionally, your Bastion must be located in a coastal location to construct any water vehicles. Your Bastion must be open to air or space to construct any air or space vehicles.\n- For the Thieves' Guild assignment, the object must be present in the Equipment sheet and have a value no greater than 500 GP in addition to the listed requirements."
+            }
+          },
+          {
+            "row": 64,
+            "name": "Sanctum",
+            "source": "DMG2024",
+            "size": "Roomy (16 sq)",
+            "prerequisite": "Level 17+, ability to use a Holy Symbol or Druidic Focus as a Spellcasting Focus",
+            "gp": 5000.0,
+            "dtp": 85.0,
+            "order": "Empower",
+            "description": "Comes with 4 hirelings. See book for description.",
+            "extra": {
+              "M": "- If you take a Bastion Turn while physically present at your Bastion, you gain the benefits of Sanctum Charm without needing to expend any additional DTP.  You must otherwise expend 1 DTP to gain the benefits of Sanctum Charm in downtime while present at the Bastion. You don't need to expend this DTP during an adventure.\n- Only in character days that pass as part of an adventure count against the duration of Sanctum Charm as determined by the DM."
+            }
+          },
+          {
+            "row": 65,
+            "name": "War Room",
+            "source": "DMG2024",
+            "size": "Vast (36 sq)",
+            "prerequisite": "Level 17+, Fighting Style feature or Unarmored Defense feature",
+            "gp": 15000.0,
+            "dtp": 245.0,
+            "order": "Recruit",
+            "description": "Comes with 2 or more hirelings. See book for description.",
+            "extra": {
+              "M": "- The Recruit: Soldiers order can only be issued during an adventure or as overseen by a DM.\n- When you issue the Recruit: Soldiers order, you muster either 5 Army statblocks or 1 Mounted Army statblock per lieutenant ordered. Each Army costs 20 GP per day to feed and each Mounted Army costs 40 GP per day to feed. You can find these statblocks in Appendix B of the TBD Guidelines. Each statblock represents a group of 20 Guards."
+            }
+          }
+        ]
+      },
+      "Other": {
+        "notes": [],
+        "items": [
+          {
+            "row": 69,
+            "name": "Closets",
+            "source": "DMG2024",
+            "size": "\u2014",
+            "prerequisite": "\u2014",
+            "gp": 0.0,
+            "dtp": 0.0,
+            "order": "\u2014",
+            "description": "Closets, washrooms, or similar enclosures as part of a Basic or Special Facility. See book for details.",
+            "extra": {
+              "M": "Closets must be inside a facility and can't increase the facility's area in squares."
+            }
+          },
+          {
+            "row": 70,
+            "name": "Corridors, Ramps, Staircases",
+            "source": "DMG2024",
+            "size": "\u2014",
+            "prerequisite": "\u2014",
+            "gp": 0.0,
+            "dtp": 0.0,
+            "order": "\u2014",
+            "description": "Corridors, ramps, and staircases part of a Special or Basic facility leading to another facility. See book for details."
+          },
+          {
+            "row": 71,
+            "name": "Defensive Walls",
+            "source": "DMG2024",
+            "size": "\u2014",
+            "prerequisite": "\u2014",
+            "gp": "250 GP per 5-foot square",
+            "dtp": "10 DTP per 5-foot square",
+            "order": "\u2014",
+            "description": "Defensive walls made around the exterior of a Bastion. See book for details.",
+            "extra": {
+              "M": "A defensive wall is 20 feet high and can include a walkway on top, along with a means of access (such as a ladder or lift)."
+            }
+          },
+          {
+            "row": 72,
+            "name": "Doors and Windows",
+            "source": "DMG2024",
+            "size": "\u2014",
+            "prerequisite": "\u2014",
+            "gp": 0.0,
+            "dtp": 0.0,
+            "order": "\u2014",
+            "description": "Doors and shuttered windows as part of a Basic or Special Facility. See book for details.",
+            "extra": {
+              "M": "Doors in a Bastion can be any kind of door described in chapter 3 of the 2024 Dungeon Master's Guide, including secret doors, locked doors, and portcullises."
+            }
+          }
+        ]
+      }
+    }
+  }
+}
